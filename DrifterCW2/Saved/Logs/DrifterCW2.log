@@ -763,3 +763,110 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.04.14-13.38.33:844][135]LogSlate: Window 'HMDLocomotionPawn' being destroyed
 [2021.04.14-13.38.33:853][135]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
 [2021.04.14-13.38.33:853][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.14-13.46.21:890][755]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{350f2b2e-b3b7-435f-b7b7-e9f74d66aca5}.
+[2021.04.14-13.46.21:890][755]LogTemp: Resetting audio stream to device id 
+[2021.04.14-13.46.21:906][755]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.14-13.46.21:906][755]LogAudioMixer: Display: 1: FrontRight
+[2021.04.14-13.46.32:952][788]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{c737fd55-fca6-469a-819e-83cf6abf0841}.
+[2021.04.14-13.46.32:952][788]LogTemp: Resetting audio stream to device id 
+[2021.04.14-13.46.32:971][788]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.14-13.46.32:971][788]LogAudioMixer: Display: 1: FrontRight
+[2021.04.14-13.48.44:314][458]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2021.04.14-13.56.57:337][783]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.04.14-13.56.57:379][783]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerMap_Auto2F12F70984C7F047638267FBF196C6079.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto2.umap'
+[2021.04.14-13.56.57:380][783]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.064
+[2021.04.14-13.56.57:380][783]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.064
+[2021.04.14-13.56.57:380][783]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn] ([1] browsable assets)...
+[2021.04.14-13.56.57:380][783]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn]
+[2021.04.14-13.56.57:645][783]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerPawn_Auto2694CE99F44404939146541862CDE2D11.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto2.uasset'
+[2021.04.14-13.56.57:646][783]LogFileHelpers: Auto-saving content packages took 0.266
+[2021.04.14-13.58.08:473][221]LogEditorTransaction: Undo Modify Component(s)
+[2021.04.14-14.06.57:918][459]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2021.04.14-14.06.57:962][459]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerMap_Auto3F3A9EC044CB3606AB434DE8690749F22.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto3.umap'
+[2021.04.14-14.06.57:963][459]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.092
+[2021.04.14-14.06.57:963][459]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.092
+[2021.04.14-14.06.57:963][459]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn] ([1] browsable assets)...
+[2021.04.14-14.06.57:963][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn]
+[2021.04.14-14.06.58:015][459]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerPawn_Auto3784ABE2548293D9112AAB0A891313799.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto3.uasset'
+[2021.04.14-14.06.58:016][459]LogFileHelpers: Auto-saving content packages took 0.053
+[2021.04.14-14.11.32:086][998]LogSlate: Window 'Project Settings' being destroyed
+[2021.04.14-14.11.32:090][998]LogSlate: Window 'Project Settings' being destroyed
+[2021.04.14-14.11.43:367][927]BlueprintLog: New page: Compile MotionControllerPawn
+[2021.04.14-14.11.43:376][927]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportLeft' for  InputAction TeleportLeft
+[2021.04.14-14.11.43:376][927]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportRight' for  InputAction TeleportRight
+[2021.04.14-14.11.43:442][927]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2021.04.14-14.11.43:904][952]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerPawnA526B04D4103B60387EEE9B4754A937F.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2021.04.14-14.11.43:915][952]AssetCheck: New page: Asset Save: MotionControllerPawn
+[2021.04.14-14.11.43:915][952]LogContentValidation: Display: Validating Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2021.04.14-14.11.53:797][833]BlueprintLog: New page: Compile MotionControllerPawn
+[2021.04.14-14.11.53:868][833]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2021.04.14-14.11.54:606][889]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerPawn9DB418714D6C0EF3D885248CE5C35E12.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2021.04.14-14.11.54:617][889]AssetCheck: New page: Asset Save: MotionControllerPawn
+[2021.04.14-14.11.54:617][889]LogContentValidation: Display: Validating Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2021.04.14-14.11.57:082][121]LogSlate: Window 'MotionControllerPawn' being destroyed
+[2021.04.14-14.11.57:085][121]LogSlate: Window 'MotionControllerPawn' being destroyed
+[2021.04.14-14.11.57:095][121]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.04.14-14.11.57:095][121]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.14-14.12.01:586][573]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2021.04.14-14.12.04:230][818]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2021.04.14-14.17.21:869][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2021.04.14-14.17.21:912][ 89]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerMap_Auto46861FD9E4CF7F99F5EA5F089B2620094.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto4.umap'
+[2021.04.14-14.17.21:913][ 89]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.132
+[2021.04.14-14.17.21:913][ 89]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.132
+[2021.04.14-14.17.21:913][ 89]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn] ([1] browsable assets)...
+[2021.04.14-14.17.21:913][ 89]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn]
+[2021.04.14-14.17.21:957][ 89]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerPawn_Auto4064474494A0BC144285988BE26501B9E.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto4.uasset'
+[2021.04.14-14.17.21:959][ 89]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn1] ([1] browsable assets)...
+[2021.04.14-14.17.21:959][ 89]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn1]
+[2021.04.14-14.17.22:005][ 89]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerPawn1_Auto422B61A8D4ACD5E69D5FB68A3ED181447.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn1_Auto4.uasset'
+[2021.04.14-14.17.22:006][ 89]LogFileHelpers: Auto-saving content packages took 0.093
+[2021.04.14-14.27.20:258][868]BlueprintLog: New page: Compile MotionControllerPawn
+[2021.04.14-14.27.20:332][868]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2021.04.14-14.27.55:829][564]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2021.04.14-14.27.55:873][564]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerMap_Auto51536396F42E0090DC790518C70AF3EDE.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto5.umap'
+[2021.04.14-14.27.55:875][564]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.066
+[2021.04.14-14.27.55:875][564]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.066
+[2021.04.14-14.27.55:875][564]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn] ([1] browsable assets)...
+[2021.04.14-14.27.55:875][564]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn]
+[2021.04.14-14.27.55:920][564]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerPawn_Auto50312D6644194C818EA8E79A586DCD438.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto5.uasset'
+[2021.04.14-14.27.55:921][564]LogFileHelpers: Auto-saving content packages took 0.046
+[2021.04.14-14.30.07:879][942]LogEditorTransaction: Undo Move Node
+[2021.04.14-14.38.33:684][821]BlueprintLog: New page: Compile MotionControllerPawn
+[2021.04.14-14.38.33:759][821]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2021.04.14-14.38.34:876][906]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerPawn7DC6A2684A7C7E8036CF73871EBEF05D.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2021.04.14-14.38.34:887][906]AssetCheck: New page: Asset Save: MotionControllerPawn
+[2021.04.14-14.38.34:887][906]LogContentValidation: Display: Validating Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2021.04.14-14.39.04:876][471]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.04.14-14.39.04:919][471]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerMap_Auto6B1DE1D5741F36BC294A4FFB4EDA3183B.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto6.umap'
+[2021.04.14-14.39.04:920][471]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.063
+[2021.04.14-14.39.04:920][471]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.063
+[2021.04.14-14.39.04:920][471]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn] ([1] browsable assets)...
+[2021.04.14-14.39.04:920][471]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn]
+[2021.04.14-14.39.04:985][471]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerPawn_Auto6CF5694D64E389D559ED1A99E89A0912C.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto6.uasset'
+[2021.04.14-14.39.04:986][471]LogFileHelpers: Auto-saving content packages took 0.066
+[2021.04.14-14.43.20:463][563]LogEditorTransaction: Undo Move Node
+[2021.04.14-14.43.20:883][578]LogEditorTransaction: Undo Create Reroute Node
+[2021.04.14-14.43.21:282][603]LogEditorTransaction: Undo Move Node
+[2021.04.14-14.43.22:043][662]LogEditorTransaction: Undo Create Reroute Node
+[2021.04.14-14.44.38:597][826]BlueprintLog: New page: Compile MotionControllerPawn
+[2021.04.14-14.44.38:672][826]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2021.04.14-14.44.39:177][851]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerPawn1D0F6A284432ADABCEE7D58F13F5C325.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2021.04.14-14.44.39:187][851]AssetCheck: New page: Asset Save: MotionControllerPawn
+[2021.04.14-14.44.39:188][851]LogContentValidation: Display: Validating Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2021.04.14-14.49.26:726][541]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2021.04.14-14.49.26:771][541]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerMap_Auto779994097414246DA091FCDACBF062E57.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto7.umap'
+[2021.04.14-14.49.26:772][541]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.068
+[2021.04.14-14.49.26:772][541]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.068
+[2021.04.14-14.49.26:773][541]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn] ([1] browsable assets)...
+[2021.04.14-14.49.26:773][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn]
+[2021.04.14-14.49.26:829][541]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerPawn_Auto77ACB5F3B40710B260F89AE8F68B3555A.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto7.uasset'
+[2021.04.14-14.49.26:830][541]LogFileHelpers: Auto-saving content packages took 0.057
+[2021.04.14-14.50.50:974][931]BlueprintLog: New page: Compile MotionControllerPawn
+[2021.04.14-14.50.51:049][931]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.04.14-14.50.51:993][986]LogSavePackage: Moving '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Saved/MotionControllerPawn4319BB874665785DEA2157AC60A317AE.tmp' to '../../../../../GitHub Projects/NNI-Project-2/DrifterCW2/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2021.04.14-14.50.52:003][986]AssetCheck: New page: Asset Save: MotionControllerPawn
+[2021.04.14-14.50.52:003][986]LogContentValidation: Display: Validating Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2021.04.14-14.50.53:558][102]LogSlate: Window 'MotionControllerPawn' being destroyed
+[2021.04.14-14.50.53:561][102]LogSlate: Window 'MotionControllerPawn' being destroyed
+[2021.04.14-14.50.53:562][102]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.04.14-14.50.53:562][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
