@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\DrifterCW2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{B66C4751-6EC7-43C9-BB1E-F01262B2D5EE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DrifterCW2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DrifterCW2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D986E798-01A0-4748-A55E-9E050552E8E2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultScalability.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\steamvr_ue_editor_app.json">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\SteamVRBindings">
+      <UniqueIdentifier>{4969C604-C1CF-4A99-A708-EB13C5513BA8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\SteamVRBindings\gamepad.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\holographic_controller.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\indexhmd.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\knuckles.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\oculus_touch.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\rift.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\steamvr_manifest.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_controller.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_cosmos_controller.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_pro.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_camera.json">
+      <Filter>Config\SteamVRBindings</Filter>
+    </None>
+    <Filter Include="Source\DrifterCW2">
+      <UniqueIdentifier>{B1CB940D-010C-420C-B44D-E5B91CEB0E40}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DrifterCW2\DrifterCW2.Build.cs">
+      <Filter>Source\DrifterCW2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\DrifterCW2\DrifterCW2.cpp">
+      <Filter>Source\DrifterCW2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DrifterCW2\DrifterCW2.h">
+      <Filter>Source\DrifterCW2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DrifterCW2\TestPawn.cpp">
+      <Filter>Source\DrifterCW2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DrifterCW2\TestPawn.h">
+      <Filter>Source\DrifterCW2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
