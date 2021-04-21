@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "DrifterCW2",
-			"Path": "D:\\GitHub Projects\\NNI-Project-2\\DrifterCW2\\Source\\DrifterCW2.Target.cs",
+			"Path": "C:\\Users\\gabri\\Documents\\GitHub\\NNI-Project-2\\DrifterCW2\\Source\\DrifterCW2.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "DrifterCW2Editor",
-			"Path": "D:\\GitHub Projects\\NNI-Project-2\\DrifterCW2\\Source\\DrifterCW2Editor.Target.cs",
+			"Path": "C:\\Users\\gabri\\Documents\\GitHub\\NNI-Project-2\\DrifterCW2\\Source\\DrifterCW2Editor.Target.cs",
 			"Type": "Editor"
 		}
 	]

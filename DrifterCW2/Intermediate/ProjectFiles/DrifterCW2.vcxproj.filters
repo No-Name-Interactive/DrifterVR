@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\DrifterCW2.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B66C4751-6EC7-43C9-BB1E-F01262B2D5EE}</UniqueIdentifier>
+      <UniqueIdentifier>{40777D42-63A8-4F6F-950B-9BEEFBDEC618}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DrifterCW2.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D986E798-01A0-4748-A55E-9E050552E8E2}</UniqueIdentifier>
+      <UniqueIdentifier>{3954AC3A-EC61-4623-9A25-99B22D3972D0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -36,7 +36,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Config\SteamVRBindings">
-      <UniqueIdentifier>{4969C604-C1CF-4A99-A708-EB13C5513BA8}</UniqueIdentifier>
+      <UniqueIdentifier>{F8B59A41-BE9F-4787-8A0A-42318A955CE2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\SteamVRBindings\gamepad.json">
       <Filter>Config\SteamVRBindings</Filter>
@@ -75,7 +75,7 @@
       <Filter>Config\SteamVRBindings</Filter>
     </None>
     <Filter Include="Source\DrifterCW2">
-      <UniqueIdentifier>{B1CB940D-010C-420C-B44D-E5B91CEB0E40}</UniqueIdentifier>
+      <UniqueIdentifier>{D202FB97-B4D2-4515-BE5C-B9EDF5F66C1E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DrifterCW2\DrifterCW2.Build.cs">
       <Filter>Source\DrifterCW2</Filter>

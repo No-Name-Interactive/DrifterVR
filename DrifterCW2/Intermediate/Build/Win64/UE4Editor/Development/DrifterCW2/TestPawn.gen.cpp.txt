@@ -1,5 +1,5 @@
-D:\GitHub Projects\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterCW2\Definitions.DrifterCW2.h
-D:\Unreal Engine 4\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Unreal Engine 4\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\GitHub Projects\NNI-Project-2\DrifterCW2\Source\DrifterCW2/TestPawn.h
-D:\GitHub Projects\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Inc\DrifterCW2\TestPawn.generated.h
+C:\Users\gabri\Documents\GitHub\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterCW2\Definitions.DrifterCW2.h
+C:\Engine\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Engine\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\gabri\Documents\GitHub\NNI-Project-2\DrifterCW2\Source\DrifterCW2/TestPawn.h
+C:\Users\gabri\Documents\GitHub\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Inc\DrifterCW2\TestPawn.generated.h
