@@ -1,5 +1,5 @@
 /MANIFEST:EMBED
-/MANIFESTINPUT:"D:\Program Files (x86)\Epic Games\UE_4.25\Engine\Build\Windows\Resources\Default-Win64.manifest"
+/MANIFESTINPUT:"D:\Unreal Engine 4\UE_4.25\Engine\Build\Windows\Resources\Default-Win64.manifest"
 /NOLOGO
 /DEBUG
 /errorReport:prompt
@@ -33,12 +33,12 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
-"C:\Users\Justas\source\repos\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\DrifterCW2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"C:\Users\Justas\source\repos\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterCW2\DrifterCW2.cpp.obj"
-"C:\Users\Justas\source\repos\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterCW2\TestPawn.cpp.obj"
-"C:\Users\Justas\source\repos\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterCW2\DrifterCW2.init.gen.cpp.obj"
-"C:\Users\Justas\source\repos\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterCW2\TestPawn.gen.cpp.obj"
-"C:\Users\Justas\source\repos\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterCW2\Default.rc2.res"
+"D:\GitHub Projects\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\DrifterCW2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\GitHub Projects\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterCW2\DrifterCW2.cpp.obj"
+"D:\GitHub Projects\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterCW2\TestPawn.cpp.obj"
+"D:\GitHub Projects\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterCW2\DrifterCW2.init.gen.cpp.obj"
+"D:\GitHub Projects\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterCW2\TestPawn.gen.cpp.obj"
+"D:\GitHub Projects\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterCW2\Default.rc2.res"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -63,12 +63,12 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-"D:\Program Files (x86)\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
-"D:\Program Files (x86)\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
-"D:\Program Files (x86)\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
-"D:\Program Files (x86)\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
-/OUT:"C:\Users\Justas\source\repos\NNI-Project-2\DrifterCW2\Binaries\Win64\UE4Editor-DrifterCW2.dll"
-/IMPLIB:"C:\Users\Justas\source\repos\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterCW2\UE4Editor-DrifterCW2.suppressed.lib"
-/PDB:"C:\Users\Justas\source\repos\NNI-Project-2\DrifterCW2\Binaries\Win64\UE4Editor-DrifterCW2.pdb"
+"D:\Unreal Engine 4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+"D:\Unreal Engine 4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+"D:\Unreal Engine 4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"D:\Unreal Engine 4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+/OUT:"D:\GitHub Projects\NNI-Project-2\DrifterCW2\Binaries\Win64\UE4Editor-DrifterCW2.dll"
+/IMPLIB:"D:\GitHub Projects\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterCW2\UE4Editor-DrifterCW2.suppressed.lib"
+/PDB:"D:\GitHub Projects\NNI-Project-2\DrifterCW2\Binaries\Win64\UE4Editor-DrifterCW2.pdb"
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_DrifterCW2
