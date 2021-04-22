@@ -29,11 +29,11 @@
 			"Type": "Executable"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/VRExpansionPlugin/Binaries/Win64/UE4Editor-VRExpansionPlugin.dll",
+			"Path": "$(ProjectDir)/Plugins/VRExpansionPlugin/VRExpansionPlugin/Binaries/Win64/UE4Editor-VRExpansionPlugin.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/VRExpansionPlugin/Binaries/Win64/UE4Editor-VRExpansionPlugin.pdb",
+			"Path": "$(ProjectDir)/Plugins/VRExpansionPlugin/VRExpansionPlugin/Binaries/Win64/UE4Editor-VRExpansionPlugin.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -45,11 +45,11 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/OpenVRExpansionPlugin/Binaries/Win64/UE4Editor-OpenVRExpansionPlugin.dll",
+			"Path": "$(ProjectDir)/Plugins/VRExpansionPlugin/OpenVRExpansionPlugin/Binaries/Win64/UE4Editor-OpenVRExpansionPlugin.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/OpenVRExpansionPlugin/Binaries/Win64/UE4Editor-OpenVRExpansionPlugin.pdb",
+			"Path": "$(ProjectDir)/Plugins/VRExpansionPlugin/OpenVRExpansionPlugin/Binaries/Win64/UE4Editor-OpenVRExpansionPlugin.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -2229,7 +2229,7 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/VRExpansionPlugin/Binaries/Win64/UE4Editor.modules",
+			"Path": "$(ProjectDir)/Plugins/VRExpansionPlugin/VRExpansionPlugin/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2237,7 +2237,7 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/OpenVRExpansionPlugin/Binaries/Win64/UE4Editor.modules",
+			"Path": "$(ProjectDir)/Plugins/VRExpansionPlugin/OpenVRExpansionPlugin/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2643,7 +2643,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/VRExpansionPlugin/VRExpansionPlugin.uplugin",
+			"Path": "$(ProjectDir)/Plugins/VRExpansionPlugin/VRExpansionPlugin/VRExpansionPlugin.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -2651,7 +2651,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/OpenVRExpansionPlugin/OpenVRExpansionPlugin.uplugin",
+			"Path": "$(ProjectDir)/Plugins/VRExpansionPlugin/OpenVRExpansionPlugin/OpenVRExpansionPlugin.uplugin",
 			"Type": "UFS"
 		},
 		{
