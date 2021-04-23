@@ -8,57 +8,13 @@
 		{
 			"sources": [
 				{
-					"mode": "trackpad",
-					"path": "/user/hand/left/input/trackpad",
-					"inputs":
-					{
-						"touch":
-						{
-							"output": "/actions/main/in/TeleportLeft"
-						}
-					}
-				},
-				{
-					"mode": "trackpad",
-					"path": "/user/hand/right/input/trackpad",
-					"inputs":
-					{
-						"touch":
-						{
-							"output": "/actions/main/in/TeleportRight"
-						}
-					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/right/input/grip",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/AlternateGripRight"
-						}
-					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/left/input/grip",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/AlternateGripLeft"
-						}
-					}
-				},
-				{
 					"mode": "trigger",
 					"path": "/user/hand/left/input/trigger",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/PrimaryGripLeft"
+							"output": "/actions/main/in/GrabLeft"
 						}
 					}
 				},
@@ -69,51 +25,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/PrimaryGripRight"
-						}
-					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/right/input/application_menu",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/LaserBeamRight"
-						}
-					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/left/input/application_menu",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/LaserBeamLeft"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/left/input/trigger",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/UseHeldObjectLeft"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/trigger",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/UseHeldObjectRight"
+							"output": "/actions/main/in/GrabRight"
 						}
 					}
 				},

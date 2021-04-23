@@ -8,57 +8,13 @@
 		{
 			"sources": [
 				{
-					"mode": "joystick",
-					"path": "/user/hand/left/input/joystick",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/TeleportLeft"
-						}
-					}
-				},
-				{
-					"mode": "joystick",
-					"path": "/user/hand/right/input/joystick",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/TeleportRight"
-						}
-					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/right/input/grip",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/AlternateGripRight"
-						}
-					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/left/input/grip",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/AlternateGripLeft"
-						}
-					}
-				},
-				{
 					"mode": "trigger",
 					"path": "/user/hand/left/input/trigger",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/PrimaryGripLeft"
+							"output": "/actions/main/in/GrabLeft"
 						}
 					}
 				},
@@ -69,59 +25,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/PrimaryGripRight"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/right/input/joystick",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"south":
-						{
-							"output": "/actions/main/in/LaserBeamRight"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/joystick",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"south":
-						{
-							"output": "/actions/main/in/LaserBeamLeft"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/left/input/trigger",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/UseHeldObjectLeft"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/trigger",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/UseHeldObjectRight"
+							"output": "/actions/main/in/GrabRight"
 						}
 					}
 				},
@@ -144,28 +48,6 @@
 						"position":
 						{
 							"output": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d"
-						}
-					}
-				},
-				{
-					"mode": "scalar_constant",
-					"path": "/user/hand/left/input/joystick",
-					"inputs":
-					{
-						"value":
-						{
-							"output": "/actions/main/in/ControllerMovementLeft axis"
-						}
-					}
-				},
-				{
-					"mode": "scalar_constant",
-					"path": "/user/hand/right/input/joystick",
-					"inputs":
-					{
-						"value":
-						{
-							"output": "/actions/main/in/ControllerMovementRight axis"
 						}
 					}
 				}

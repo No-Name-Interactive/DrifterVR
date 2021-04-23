@@ -1,13 +1,13 @@
 {
 	"Targets": [
 		{
-			"Name": "VRExpPluginExample",
-			"Path": "C:\\Users\\Vari\\Desktop\\VRExpPluginExample-4.25-Locked\\Source\\VRExpPluginExample.Target.cs",
+			"Name": "DrifterCW2",
+			"Path": "C:\\Users\\gabri\\Documents\\GitHub\\NNI-Project-2\\DrifterCW2\\Source\\DrifterCW2.Target.cs",
 			"Type": "Game"
 		},
 		{
-			"Name": "VRExpPluginExampleEditor",
-			"Path": "C:\\Users\\Vari\\Desktop\\VRExpPluginExample-4.25-Locked\\Source\\VRExpPluginExampleEditor.Target.cs",
+			"Name": "DrifterCW2Editor",
+			"Path": "C:\\Users\\gabri\\Documents\\GitHub\\NNI-Project-2\\DrifterCW2\\Source\\DrifterCW2Editor.Target.cs",
 			"Type": "Editor"
 		}
 	]
