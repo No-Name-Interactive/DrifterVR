@@ -47,9 +47,6 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FVROnControllerGripSignature, const 
 /** Delegate for notification when the controller drops a gripped object. */
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FVROnControllerDropSignature, const FBPActorGripInformation &, GripInformation, bool, bWasSocketed);
 
-/** Delegate for notification when the controller teleports its grips. */
-DECLARE_DYNAMIC_MULTICAST_DELEGATE(FVROnControllerTeleportedGripsSignature);
-
 /** Delegate for notification when an interactive grip goes out of range and isn't set to auto handle it. */
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FVRGripControllerOnGripOutOfRange, const FBPActorGripInformation &, GripInformation, float, Distance);
 
@@ -183,16 +180,6 @@ public:
 	FVector LastLocationForLateUpdate;
 	FTransform LastRelativePosition;
 
-	// If true will smooth the hand tracking data with a TInterp function
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GripMotionController|Smoothing")
-		bool bSmoothHandTracking;
-
-	// The interp speed to use if smoothing is enabled
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GripMotionController|Smoothing")
-		float SmoothingSpeed;
-
-	FTransform LastSmoothRelativeTransform;
-
 	// Type of velocity calculation to use for the motion controller
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GripMotionController|ComponentVelocity")
 		EVRVelocityType VelocityCalculationType;
@@ -278,10 +265,6 @@ public:
 	// Called when a object is dropped
 	UPROPERTY(BlueprintAssignable, Category = "Grip Events")
 		FVROnControllerDropSignature OnDroppedObject;
-
-	// Called when a gripped object has been teleported
-	UPROPERTY(BlueprintAssignable, Category = "Grip Events")
-		FVROnControllerTeleportedGripsSignature OnTeleportedGrips;
 
 	// Called when an object we hold is secondary gripped
 	UPROPERTY(BlueprintAssignable, Category = "Grip Events")

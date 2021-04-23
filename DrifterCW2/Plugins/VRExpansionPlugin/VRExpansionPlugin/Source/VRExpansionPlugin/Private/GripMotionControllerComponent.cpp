@@ -95,11 +95,6 @@ UGripMotionControllerComponent::UGripMotionControllerComponent(const FObjectInit
 	bSmoothReplicatedMotion = false;
 	bReppedOnce = false;
 	bOffsetByHMD = false;
-
-	bSmoothHandTracking = false;
-	LastSmoothRelativeTransform = FTransform::Identity;
-	SmoothingSpeed = 20.0f;
-
 	bIsPostTeleport = false;
 
 	GripIDIncrementer = INVALID_VRGRIP_ID;
@@ -336,7 +331,7 @@ void UGripMotionControllerComponent::EndPlay(const EEndPlayReason::Type EndPlayR
 		DestroyPhysicsHandle(GrippedObjects[i]);
 
 		if (/*HasGripAuthority(GrippedObjects[i]) || */IsServer())
-			DropObjectByInterface(nullptr, GrippedObjects[i].GripID);
+			DropObjectByInterface(GrippedObjects[i].GrippedObject);
 	}
 	GrippedObjects.Empty();
 
@@ -345,7 +340,7 @@ void UGripMotionControllerComponent::EndPlay(const EEndPlayReason::Type EndPlayR
 		DestroyPhysicsHandle(LocallyGrippedObjects[i]);
 
 		if (/*HasGripAuthority(LocallyGrippedObjects[i]) || */IsServer())
-			DropObjectByInterface(nullptr, LocallyGrippedObjects[i].GripID);
+			DropObjectByInterface(LocallyGrippedObjects[i].GrippedObject);
 	}
 	LocallyGrippedObjects.Empty();
 
@@ -3642,7 +3637,7 @@ bool UGripMotionControllerComponent::TeleportMoveGrip_Impl(FBPActorGripInformati
 				Grip.GripMovementReplicationSetting == EGripMovementReplicationSettings::ClientSide_Authoritive ||
 				Grip.GripMovementReplicationSetting == EGripMovementReplicationSettings::ClientSide_Authoritive_NoRep)
 			{
-				DropObjectByInterface(nullptr, Grip.GripID);
+				DropObjectByInterface(Grip.GrippedObject);
 			}
 			
 			return false; // Didn't teleport
@@ -3835,28 +3830,7 @@ void UGripMotionControllerComponent::UpdateTracking(float DeltaTime)
 			bTracked = bNewTrackedState && CurrentTrackingStatus != ETrackingStatus::NotTracked;
 			if (bTracked)
 			{
-				if (bSmoothHandTracking)
-				{
-					FTransform CalcedTransform = FTransform(Orientation, Position, this->GetRelativeScale3D());
-					
-					if (SmoothingSpeed <= 0.f || LastSmoothRelativeTransform.Equals(FTransform::Identity))
-					{
-						SetRelativeTransform(CalcedTransform);
-						LastSmoothRelativeTransform = CalcedTransform;
-					}
-					else
-					{
-						const float Alpha = FMath::Clamp(DeltaTime * SmoothingSpeed, 0.f, 1.f);
-						LastSmoothRelativeTransform.Blend(LastSmoothRelativeTransform, CalcedTransform, Alpha);
-						SetRelativeTransform(LastSmoothRelativeTransform);
-					}
-				}
-				else
-				{
-					// Clear the smoothing information so that we start with a fresh log when its enabled again
-					LastSmoothRelativeTransform = FTransform::Identity;
-					SetRelativeTransform(FTransform(Orientation, Position, this->GetRelativeScale3D()));
-				}
+				SetRelativeTransform(FTransform(Orientation, Position, this->GetRelativeScale3D()));
 			}
 
 			// if controller tracking just changed
@@ -4065,22 +4039,12 @@ void UGripMotionControllerComponent::TickGrip(float DeltaTime)
 	if(!IsServer())
 		CheckTransactionBuffer();
 
-	bool bOriginalPostTeleport = bIsPostTeleport;
-
 	// Split into separate functions so that I didn't have to combine arrays since I have some removal going on
 	HandleGripArray(GrippedObjects, ParentTransform, DeltaTime, true);
 	HandleGripArray(LocallyGrippedObjects, ParentTransform, DeltaTime);
 
-	// Empty out the teleport flag, checking original state just in case the player changed it while processing bps
-	if (bOriginalPostTeleport)
-	{
-		if ((GrippedObjects.Num() || LocallyGrippedObjects.Num()))
-		{
-			OnTeleportedGrips.Broadcast();
-		}
-
-		bIsPostTeleport = false;
-	}
+	// Empty out the teleport flag
+	bIsPostTeleport = false;
 
 	// Save out the component velocity from this and last frame
 
@@ -5969,7 +5933,7 @@ void UGripMotionControllerComponent::Client_NotifyInvalidLocalGrip_Implementatio
 	{
 		if (FBPActorGripInformation* GripInfo = GetGripPtrByID(GripID))
 		{
-			DropObjectByInterface(nullptr, GripID);
+			DropObjectByInterface(GripInfo->GrippedObject, GripID);
 			return;
 		}		
 	}
@@ -5983,7 +5947,7 @@ void UGripMotionControllerComponent::Client_NotifyInvalidLocalGrip_Implementatio
 		return;
 
 	// Drop it, server told us that it was a bad grip
-	DropObjectByInterface(nullptr, FoundGrip.GripID);
+	DropObjectByInterface(FoundGrip.GrippedObject, FoundGrip.GripID);
 }
 
 bool UGripMotionControllerComponent::Server_NotifyHandledTransaction_Validate(uint8 GripID)

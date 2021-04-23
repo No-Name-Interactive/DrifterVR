@@ -98,7 +98,6 @@ protected:
 
 public:
 	void BeginPlay() override;
-	virtual void InitializeComponent() override;
 
 	bool IsLocallyControlled() const;
 

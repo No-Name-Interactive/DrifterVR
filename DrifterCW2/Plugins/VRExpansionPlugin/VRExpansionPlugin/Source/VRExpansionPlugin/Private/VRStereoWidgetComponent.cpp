@@ -2,7 +2,6 @@
 
 #include "VRStereoWidgetComponent.h"
 #include "VRExpansionFunctionLibrary.h"
-#include "VRBaseCharacter.h"
 #include "TextureResource.h"
 #include "Engine/Texture.h"
 #include "IStereoLayers.h"
@@ -227,33 +226,8 @@ void UVRStereoWidgetComponent::TickComponent(float DeltaTime, enum ELevelTick Ti
 				{
 					// Set transform to this relative transform
 
-
-					bool bHandledTransform = false;
-					if (AVRBaseCharacter* BaseVRChar = Cast<AVRBaseCharacter>(mpawn))
-					{
-						if (USceneComponent* CameraParent = BaseVRChar->VRReplicatedCamera->GetAttachParent())
-						{
-							Transform = GetComponentTransform().GetRelativeTransform(CameraParent->GetComponentTransform());
-							Transform = FTransform(FRotator(0.f, -180.f, 0.f)) * Transform;
-							bHandledTransform = true;
-						}
-					}
-					else if (UCameraComponent* Camera = mpawn->FindComponentByClass<UCameraComponent>())
-					{
-						// Look for generic camera comp and use its attach parent
-						if (USceneComponent* CameraParent = Camera->GetAttachParent())
-						{
-							Transform = GetComponentTransform().GetRelativeTransform(CameraParent->GetComponentTransform());
-							Transform = FTransform(FRotator(0.f, -180.f, 0.f)) * Transform;
-							bHandledTransform = true;							
-						}
-					}
-
-					if(!bHandledTransform) // Just use the pawn as we don't know the heirarchy
-					{
-						Transform = GetComponentTransform().GetRelativeTransform(mpawn->GetTransform());
-						Transform = FTransform(FRotator(0.f, -180.f, 0.f)) * Transform;
-					}
+					Transform = GetComponentTransform().GetRelativeTransform(mpawn->GetTransform());
+					Transform = FTransform(FRotator(0.f, -180.f, 0.f)) * Transform;
 					
 					// OpenVR y+ Up, +x Right, -z Going away
 					// UE4 z+ up, +y right, +x forward
@@ -361,8 +335,6 @@ void UVRStereoWidgetComponent::TickComponent(float DeltaTime, enum ELevelTick Ti
 		{
 			UStereoLayerShapeCylinder* Cylinder = Cast<UStereoLayerShapeCylinder>(Shape);
 
-			// Skipping this for this update as there is an issue with 4.25 that is fixed in 4.26
-			/*
 			if (!Cylinder)
 			{
 				if (Shape)
@@ -371,17 +343,13 @@ void UVRStereoWidgetComponent::TickComponent(float DeltaTime, enum ELevelTick Ti
 					Shape = NewObject<UStereoLayerShapeCylinder>(this);
 				}
 			}
-			*/
 
-			if (Cylinder)
-			{
-				const float ArcAngleRadians = FMath::DegreesToRadians(CylinderArcAngle);
-				const float Radius = GetDrawSize().X / ArcAngleRadians;
+			const float ArcAngleRadians = FMath::DegreesToRadians(CylinderArcAngle);
+			const float Radius = GetDrawSize().X / ArcAngleRadians;
 
-				Cylinder->Height = GetDrawSize().Y;//CylinderHeight_DEPRECATED;
-				Cylinder->OverlayArc = CylinderArcAngle;// CylinderOverlayArc_DEPRECATED;
-				Cylinder->Radius = Radius;// CylinderRadius_DEPRECATED;
-			}
+			Cylinder->Height = GetDrawSize().Y;//CylinderHeight_DEPRECATED;
+			Cylinder->OverlayArc = CylinderArcAngle;// CylinderOverlayArc_DEPRECATED;
+			Cylinder->Radius = Radius;// CylinderRadius_DEPRECATED;
 			break;
 
 			//LayerDsec.ShapeType = IStereoLayers::CylinderLayer;
@@ -390,8 +358,6 @@ void UVRStereoWidgetComponent::TickComponent(float DeltaTime, enum ELevelTick Ti
 		case EWidgetGeometryMode::Plane:
 		default:
 		{
-			// Skipping this for this update as there is an issue with 4.25 that is fixed in 4.26
-			/*
 			UStereoLayerShapeQuad* Quad = Cast<UStereoLayerShapeQuad>(Shape);
 
 			if (!Quad)
@@ -403,7 +369,6 @@ void UVRStereoWidgetComponent::TickComponent(float DeltaTime, enum ELevelTick Ti
 				}
 			}
 			//LayerDsec.ShapeType = IStereoLayers::QuadLayer;
-			*/
 		}break;
 		}
 
