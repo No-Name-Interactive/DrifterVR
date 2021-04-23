@@ -32,7 +32,7 @@
 /wd4244
 /wd4838
 /I .
-/I C:\Users\Vari\Desktop\VRExpPluginExample-4.25-Locked\Source
+/I "C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Source"
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -231,9 +231,9 @@
 /I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\Users\Vari\Desktop\VRExpPluginExample-4.25-Locked\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Inc\AdvancedSessions
-/I C:\Users\Vari\Desktop\VRExpPluginExample-4.25-Locked\Plugins\AdvancedSessions\AdvancedSessions\Source
-/I C:\Users\Vari\Desktop\VRExpPluginExample-4.25-Locked\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes
+/I "C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Inc\AdvancedSessions"
+/I "C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Plugins\AdvancedSessions\AdvancedSessions\Source"
+/I "C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes"
 /I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4Editor\Inc\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem\Source
@@ -243,9 +243,9 @@
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Classes
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Public
 /I Runtime\Networking\Public
-/I C:\Users\Vari\Desktop\VRExpPluginExample-4.25-Locked\Plugins\VRExpansionPlugin\VRExpansionPlugin\Intermediate\Build\Win64\UE4Editor\Inc\VRExpansionPlugin
-/I C:\Users\Vari\Desktop\VRExpPluginExample-4.25-Locked\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source
-/I C:\Users\Vari\Desktop\VRExpPluginExample-4.25-Locked\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public
+/I "C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Plugins\VRExpansionPlugin\VRExpansionPlugin\Intermediate\Build\Win64\UE4Editor\Inc\VRExpansionPlugin"
+/I "C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source"
+/I "C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ThirdParty\PhysX3\PxShared\include
@@ -277,12 +277,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\Users\Vari\Desktop\VRExpPluginExample-4.25-Locked\Intermediate\Build\Win64\VRExpPluginExampleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\Vari\Desktop\VRExpPluginExample-4.25-Locked\Intermediate\Build\Win64\VRExpPluginExampleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\Vari\Desktop\VRExpPluginExample-4.25-Locked\Intermediate\Build\Win64\VRExpPluginExampleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\Vari\Desktop\VRExpPluginExample-4.25-Locked\Source\VRExpPluginExample\VRExpPluginExample.cpp"
-/FI"C:\Users\Vari\Desktop\VRExpPluginExample-4.25-Locked\Intermediate\Build\Win64\UE4Editor\Development\VRExpPluginExample\Definitions.VRExpPluginExample.h"
-/Fo"C:\Users\Vari\Desktop\VRExpPluginExample-4.25-Locked\Intermediate\Build\Win64\UE4Editor\Development\VRExpPluginExample\VRExpPluginExample.cpp.obj"
+/FI"C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\VRExpPluginExampleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\VRExpPluginExampleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\VRExpPluginExampleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Source\VRExpPluginExample\VRExpPluginExample.cpp"
+/FI"C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\VRExpPluginExample\Definitions.VRExpPluginExample.h"
+/Fo"C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\VRExpPluginExample\VRExpPluginExample.cpp.obj"
 /TP
 /GR-
 /W4

@@ -52,10 +52,10 @@
 			"VRGlobalSettings.cpp.obj",
 			"VRGripInterface.cpp.obj",
 			"VRPathFollowingComponent.cpp.obj",
-			"VRPlayerController.cpp.obj"
+			"VRPlayerController.cpp.obj",
+			"VRRootComponent.cpp.obj"
 		],
 		"Module.VRExpansionPlugin.4_of_4.cpp.obj": [
-			"VRRootComponent.cpp.obj",
 			"VRStereoWidgetComponent.cpp.obj",
 			"VRTrackedParentInterface.cpp.obj"
 		],

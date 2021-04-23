@@ -1,5 +1,5 @@
-C:\Users\Vari\Desktop\VRExpPluginExample-4.25-Locked\Intermediate\Build\Win64\UE4Editor\Development\VRExpPluginExample\Definitions.VRExpPluginExample.h
-C:\Users\Vari\Desktop\VRExpPluginExample-4.25-Locked\Source\VRExpPluginExample\VRExpPluginExample.h
+C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\VRExpPluginExample\Definitions.VRExpPluginExample.h
+C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Source\VRExpPluginExample\VRExpPluginExample.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\Engine.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Core.h
