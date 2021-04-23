@@ -1,0 +1,12 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Vari\\Desktop\\VRExpPluginExample-4.25-Locked\\Source\\VRExpPluginExample\\VRExpPluginExample.Build.cs",
+		"C:\\Users\\Vari\\Desktop\\VRExpPluginExample-4.25-Locked\\Plugins\\AdvancedSessions\\AdvancedSessions\\Source\\AdvancedSessions\\AdvancedSessions.Build.cs",
+		"C:\\Users\\Vari\\Desktop\\VRExpPluginExample-4.25-Locked\\Plugins\\AdvancedSessions\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\AdvancedSteamSessions.Build.cs",
+		"C:\\Users\\Vari\\Desktop\\VRExpPluginExample-4.25-Locked\\Plugins\\VRExpansionPlugin\\OpenVRExpansionPlugin\\Source\\OpenVRExpansionPlugin\\OpenVRExpansionPlugin.Build.cs",
+		"C:\\Users\\Vari\\Desktop\\VRExpPluginExample-4.25-Locked\\Plugins\\VRExpansionPlugin\\VRExpansionPlugin\\Source\\VRExpansionPlugin\\VRExpansionPlugin.Build.cs",
+		"C:\\Users\\Vari\\Desktop\\VRExpPluginExample-4.25-Locked\\Source\\VRExpPluginExample.Target.cs",
+		"C:\\Users\\Vari\\Desktop\\VRExpPluginExample-4.25-Locked\\Source\\VRExpPluginExampleEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

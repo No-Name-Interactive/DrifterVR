@@ -78,19 +78,43 @@
 			"requirement": "optional"
 		},
 		{
-			"name": "/actions/main/in/GrabLeft",
+			"name": "/actions/main/in/TeleportLeft",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/GrabRight",
+			"name": "/actions/main/in/TeleportRight",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/InteractLeft",
+			"name": "/actions/main/in/AlternateGripRight",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/InteractRight",
+			"name": "/actions/main/in/AlternateGripLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/PrimaryGripLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/PrimaryGripRight",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/LaserBeamRight",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/LaserBeamLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/UseHeldObjectLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/UseHeldObjectRight",
 			"type": "boolean"
 		},
 		{
@@ -100,6 +124,14 @@
 		{
 			"name": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d",
 			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/ControllerMovementLeft axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/ControllerMovementRight axis",
+			"type": "vector1"
 		}
 	],
 	"action_sets": [
@@ -172,12 +204,20 @@
 			"/actions/main/out/vibrateleft": "Haptic (Left)",
 			"/actions/main/out/vibrateright": "Haptic (Right)",
 			"/actions/main/in/open_console": "Open Console",
-			"/actions/main/in/GrabLeft": "GrabLeft",
-			"/actions/main/in/GrabRight": "GrabRight",
-			"/actions/main/in/InteractLeft": "InteractLeft",
-			"/actions/main/in/InteractRight": "InteractRight",
+			"/actions/main/in/TeleportLeft": "TeleportLeft",
+			"/actions/main/in/TeleportRight": "TeleportRight",
+			"/actions/main/in/AlternateGripRight": "AlternateGripRight",
+			"/actions/main/in/AlternateGripLeft": "AlternateGripLeft",
+			"/actions/main/in/PrimaryGripLeft": "PrimaryGripLeft",
+			"/actions/main/in/PrimaryGripRight": "PrimaryGripRight",
+			"/actions/main/in/LaserBeamRight": "LaserBeamRight",
+			"/actions/main/in/LaserBeamLeft": "LaserBeamLeft",
+			"/actions/main/in/UseHeldObjectLeft": "UseHeldObjectLeft",
+			"/actions/main/in/UseHeldObjectRight": "UseHeldObjectRight",
 			"/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d": "MotionControllerThumbLeft",
 			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
+			"/actions/main/in/ControllerMovementLeft axis": "ControllerMovementLeft",
+			"/actions/main/in/ControllerMovementRight axis": "ControllerMovementRight",
 			"/actions/main": "Main Game Actions"
 		}
 	]
