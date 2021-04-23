@@ -3,7 +3,6 @@
 #include "Grippables/GrippableStaticMeshActor.h"
 #include "TimerManager.h"
 #include "Net/UnrealNetwork.h"
-#include "PhysicsReplication.h"
 #include "Net/Core/PushModel/PushModel.h"
 
 // #TODO: Pull request this? This macro could be very useful
@@ -538,8 +537,9 @@ bool AGrippableStaticMeshActor::PollReplicationEvent()
 	{
 		CeaseReplicationBlocking();
 	}
-	// Tell server to kill us
-	Server_EndClientAuthReplication();
+
+	//ClientAuthReplicationData.LastActorTransform = FTransform::Identity;
+
 	return false; // Tell the bucket subsystem to remove us from consideration
 }
 
@@ -575,25 +575,6 @@ void AGrippableStaticMeshActor::EndPlay(const EEndPlayReason::Type EndPlayReason
 	Super::EndPlay(EndPlayReason);
 }
 
-
-bool AGrippableStaticMeshActor::Server_EndClientAuthReplication_Validate()
-{
-	return true;
-}
-
-void AGrippableStaticMeshActor::Server_EndClientAuthReplication_Implementation()
-{
-	if (UWorld* World = GetWorld())
-	{
-		if (FPhysScene* PhysScene = World->GetPhysicsScene())
-		{
-			if (FPhysicsReplication* PhysicsReplication = PhysScene->GetPhysicsReplication())
-			{
-				PhysicsReplication->RemoveReplicatedTarget(GetStaticMeshComponent());
-			}
-		}
-	}
-}
 
 bool AGrippableStaticMeshActor::Server_GetClientAuthReplication_Validate(const FRepMovementVR & newMovement)
 {

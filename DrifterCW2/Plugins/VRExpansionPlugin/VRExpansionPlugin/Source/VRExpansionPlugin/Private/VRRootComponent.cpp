@@ -345,8 +345,6 @@ UVRRootComponent::UVRRootComponent(const FObjectInitializer& ObjectInitializer)
 	PrimaryComponentTick.bStartWithTickEnabled = true;
 	PrimaryComponentTick.TickGroup = TG_PrePhysics;
 
-	bWantsInitializeComponent = true;
-
 	this->SetRelativeScale3D(FVector(1.f));
 	this->SetRelativeLocation(FVector::ZeroVector);
 
@@ -434,11 +432,11 @@ public:
 				
 				if (bSimulating)
 				{
-					DrawWireCapsule(PDI, LocalToWorld.GetOrigin() - FVector(0.f, 0.f, CapsuleHalfHeight), LocalToWorld.GetScaledAxis(EAxis::X), LocalToWorld.GetScaledAxis(EAxis::Y), LocalToWorld.GetScaledAxis(EAxis::Z), DrawCapsuleColor, CapsuleRadius, CapsuleHalfHeight, CapsuleSides, SDPG_World);
+					DrawWireCapsule(PDI, LocalToWorld.GetOrigin(), LocalToWorld.GetScaledAxis(EAxis::X), LocalToWorld.GetScaledAxis(EAxis::Y), LocalToWorld.GetScaledAxis(EAxis::Z), DrawCapsuleColor, CapsuleRadius, CapsuleHalfHeight, CapsuleSides, SDPG_World);
 				}
 				else if (UseEditorCompositing(View))
 				{
-					DrawWireCapsule(PDI, LocalToWorld.GetOrigin() /*+ FVector(0.f, 0.f, CapsuleHalfHeight)*/, LocalToWorld.GetScaledAxis(EAxis::X), LocalToWorld.GetScaledAxis(EAxis::Y), LocalToWorld.GetScaledAxis(EAxis::Z), DrawCapsuleColor, CapsuleRadius, CapsuleHalfHeight, CapsuleSides, SDPG_World, 1.25f);
+					DrawWireCapsule(PDI, LocalToWorld.GetOrigin() + FVector(0.f, 0.f, CapsuleHalfHeight), LocalToWorld.GetScaledAxis(EAxis::X), LocalToWorld.GetScaledAxis(EAxis::Y), LocalToWorld.GetScaledAxis(EAxis::Z), DrawCapsuleColor, CapsuleRadius, CapsuleHalfHeight, CapsuleSides, SDPG_World, 1.25f);
 				}
 				else
 					DrawWireCapsule(PDI, LocalToWorld.GetOrigin(), LocalToWorld.GetScaledAxis(EAxis::X), LocalToWorld.GetScaledAxis(EAxis::Y), LocalToWorld.GetScaledAxis(EAxis::Z), DrawCapsuleColor, CapsuleRadius, CapsuleHalfHeight, CapsuleSides, SDPG_World, 1.25f);					
@@ -486,19 +484,13 @@ private:
 
 FPrimitiveSceneProxy* UVRRootComponent::CreateSceneProxy()
 {
-	//GenerateOffsetToWorld();
 	return new FDrawVRCylinderSceneProxy(this);
-}
-
-void UVRRootComponent::InitializeComponent()
-{
-	Super::InitializeComponent();
-	GenerateOffsetToWorld();
 }
 
 void UVRRootComponent::BeginPlay()
 {
 	Super::BeginPlay();
+
 
 	if(AVRBaseCharacter * vrOwner = Cast<AVRBaseCharacter>(this->GetOwner()))
 	{ 

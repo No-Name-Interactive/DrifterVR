@@ -1,3 +1,0 @@
-C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterCW2\Definitions.DrifterCW2.h
-C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Source\DrifterCW2\TestPawn.h
-C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Inc\DrifterCW2\TestPawn.generated.h

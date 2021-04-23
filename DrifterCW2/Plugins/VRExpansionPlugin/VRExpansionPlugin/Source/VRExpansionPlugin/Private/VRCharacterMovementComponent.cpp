@@ -2910,7 +2910,7 @@ void UVRCharacterMovementComponent::PhysFalling(float deltaTime, int32 Iteration
 		bJustTeleported = false;
 
 		RestorePreAdditiveRootMotionVelocity();
-	//	RestorePreAdditiveVRMotionVelocity();
+		RestorePreAdditiveVRMotionVelocity();
 
 		const FVector OldVelocity = Velocity;
 
@@ -2984,7 +2984,7 @@ void UVRCharacterMovementComponent::PhysFalling(float deltaTime, int32 Iteration
 		//UE_LOG(LogCharacterMovement, Log, TEXT("dt=(%.6f) OldLocation=(%s) OldVelocity=(%s) NewVelocity=(%s)"), timeTick, *(UpdatedComponent->GetComponentLocation()).ToString(), *OldVelocity.ToString(), *Velocity.ToString());
 
 		ApplyRootMotionToVelocity(timeTick);
-		//ApplyVRMotionToVelocity(deltaTime);
+		ApplyVRMotionToVelocity(deltaTime);
 
 		if (bNotifyApex && (Velocity.Z < 0.f))
 		{
@@ -2994,9 +2994,7 @@ void UVRCharacterMovementComponent::PhysFalling(float deltaTime, int32 Iteration
 		}
 
 		// Compute change in position (using midpoint integration method).
-		FVector Adjusted = (0.5f * (OldVelocity + Velocity) * timeTick) + ((AdditionalVRInputVector / deltaTime) * timeTick);
-
-		ApplyVRMotionToVelocity(deltaTime);
+		FVector Adjusted = (0.5f * (OldVelocity + Velocity) * timeTick) /*+ ((AdditionalVRInputVector / deltaTime) * timeTick)*/;
 
 		// Special handling if ending the jump force where we didn't apply gravity during the jump.
 		if (bEndingJumpForce && !bApplyGravityWhileJumping)
@@ -3013,7 +3011,6 @@ void UVRCharacterMovementComponent::PhysFalling(float deltaTime, int32 Iteration
 
 		if (!HasValidData())
 		{
-			RestorePreAdditiveVRMotionVelocity();
 			return;
 		}
 
@@ -3022,7 +3019,6 @@ void UVRCharacterMovementComponent::PhysFalling(float deltaTime, int32 Iteration
 
 		if (IsSwimming()) //just entered water
 		{
-			RestorePreAdditiveVRMotionVelocity();
 			remainingTime += subTimeTickRemaining;
 			StartSwimmingVR(OldCapsuleLocation, OldVelocity, timeTick, remainingTime, Iterations);
 			return;
@@ -3031,7 +3027,6 @@ void UVRCharacterMovementComponent::PhysFalling(float deltaTime, int32 Iteration
 		{
 			if (IsValidLandingSpot(VRRootCapsule->OffsetComponentToWorld.GetLocation()/*UpdatedComponent->GetComponentLocation()*/, Hit))
 			{
-				RestorePreAdditiveVRMotionVelocity();
 				remainingTime += subTimeTickRemaining;
 				ProcessLanded(Hit, remainingTime, Iterations);
 				return;
@@ -3053,7 +3048,6 @@ void UVRCharacterMovementComponent::PhysFalling(float deltaTime, int32 Iteration
 					FindFloor(PawnLocation, FloorResult, false, NULL);
 					if (FloorResult.IsWalkableFloor() && IsValidLandingSpot(PawnLocation, FloorResult.HitResult))
 					{
-						//RestorePreAdditiveVRMotionVelocity();
 						remainingTime += subTimeTickRemaining;
 						ProcessLanded(FloorResult.HitResult, remainingTime, Iterations);
 						return;
@@ -3065,7 +3059,6 @@ void UVRCharacterMovementComponent::PhysFalling(float deltaTime, int32 Iteration
 				// If we've changed physics mode, abort.
 				if (!HasValidData() || !IsFalling())
 				{
-					RestorePreAdditiveVRMotionVelocity();
 					return;
 				}
 
@@ -3117,7 +3110,6 @@ void UVRCharacterMovementComponent::PhysFalling(float deltaTime, int32 Iteration
 
 						if (IsValidLandingSpot(VRRootCapsule->OffsetComponentToWorld.GetLocation()/*UpdatedComponent->GetComponentLocation()*/, Hit))
 						{
-							RestorePreAdditiveVRMotionVelocity();
 							remainingTime += subTimeTickRemaining;
 							ProcessLanded(Hit, remainingTime, Iterations);
 							return;
@@ -3128,7 +3120,6 @@ void UVRCharacterMovementComponent::PhysFalling(float deltaTime, int32 Iteration
 						// If we've changed physics mode, abort.
 						if (!HasValidData() || !IsFalling())
 						{
-							RestorePreAdditiveVRMotionVelocity();
 							return;
 						}
 
@@ -3178,7 +3169,6 @@ void UVRCharacterMovementComponent::PhysFalling(float deltaTime, int32 Iteration
 
 						if (bDitch || IsValidLandingSpot(VRRootCapsule->OffsetComponentToWorld.GetLocation()/*UpdatedComponent->GetComponentLocation()*/, Hit) || Hit.Time == 0.f)
 						{
-							RestorePreAdditiveVRMotionVelocity();
 							remainingTime = 0.f;
 							ProcessLanded(Hit, remainingTime, Iterations);
 							return;
@@ -3245,8 +3235,6 @@ void UVRCharacterMovementComponent::PhysFalling(float deltaTime, int32 Iteration
 			Velocity.X = 0.f;
 			Velocity.Y = 0.f;
 		}
-
-		RestorePreAdditiveVRMotionVelocity();
 	}
 }
 
@@ -3425,7 +3413,6 @@ void UVRCharacterMovementComponent::PhysSwimming(float deltaTime, int32 Iteratio
 	RewindVRRelativeMovement();
 
 	RestorePreAdditiveRootMotionVelocity();
-	//RestorePreAdditiveVRMotionVelocity();
 
 	float NetFluidFriction = 0.f;
 	float Depth = ImmersionDepth();
@@ -3455,16 +3442,14 @@ void UVRCharacterMovementComponent::PhysSwimming(float deltaTime, int32 Iteratio
 	}
 
 	ApplyRootMotionToVelocity(deltaTime);
-	ApplyVRMotionToVelocity(deltaTime);
 
 	FVector Adjusted = Velocity * deltaTime;
 	FHitResult Hit(1.f);
-	float remainingTime = deltaTime * SwimVR(Adjusted/* + AdditionalVRInputVector*/, Hit);
+	float remainingTime = deltaTime * SwimVR(Adjusted + AdditionalVRInputVector, Hit);
 
 	//may have left water - if so, script might have set new physics mode
 	if (!IsSwimming())
 	{
-		RestorePreAdditiveVRMotionVelocity();
 		StartNewPhysics(remainingTime, Iterations);
 		return;
 	}
@@ -3480,7 +3465,6 @@ void UVRCharacterMovementComponent::PhysSwimming(float deltaTime, int32 Iteratio
 			SwimVR(Adjusted, Hit);
 			if (!IsSwimming())
 			{
-				RestorePreAdditiveVRMotionVelocity();
 				StartNewPhysics(remainingTime, Iterations);
 				return;
 			}
@@ -3496,13 +3480,12 @@ void UVRCharacterMovementComponent::PhysSwimming(float deltaTime, int32 Iteratio
 			float stepZ = UpdatedComponent->GetComponentLocation().Z;
 			const FVector RealVelocity = Velocity;
 			Velocity.Z = 1.f;	// HACK: since will be moving up, in case pawn leaves the water
-			bSteppedUp = StepUp(GravDir, (Adjusted/* + AdditionalVRInputVector*/) * (1.f - Hit.Time), Hit);
+			bSteppedUp = StepUp(GravDir, (Adjusted + AdditionalVRInputVector) * (1.f - Hit.Time), Hit);
 			if (bSteppedUp)
 			{
 				//may have left water - if so, script might have set new physics mode
 				if (!IsSwimming())
 				{
-					RestorePreAdditiveVRMotionVelocity();
 					StartNewPhysics(remainingTime, Iterations);
 					return;
 				}
@@ -3523,7 +3506,7 @@ void UVRCharacterMovementComponent::PhysSwimming(float deltaTime, int32 Iteratio
 	{
 		bool bWaterJump = !GetPhysicsVolume()->bWaterVolume;
 		float velZ = Velocity.Z;
-		Velocity = ((UpdatedComponent->GetComponentLocation() - OldLocation)/* - AdditionalVRInputVector*/) / (deltaTime - remainingTime);
+		Velocity = ((UpdatedComponent->GetComponentLocation() - OldLocation) - AdditionalVRInputVector) / (deltaTime - remainingTime);
 		if (bWaterJump)
 		{
 			Velocity.Z = velZ;
@@ -3534,8 +3517,6 @@ void UVRCharacterMovementComponent::PhysSwimming(float deltaTime, int32 Iteratio
 	{
 		SetMovementMode(MOVE_Falling); //in case script didn't change it (w/ zone change)
 	}
-
-	RestorePreAdditiveVRMotionVelocity();
 
 	//may have left water - if so, script might have set new physics mode
 	if (!IsSwimming())

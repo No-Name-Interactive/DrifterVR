@@ -79,57 +79,49 @@ void FPhysicsReplicationVR::OnTick(float DeltaSeconds, TMap<TWeakObjectPtr<UPrim
 				bool bUpdated = false;
 				if (AActor* OwningActor = PrimComp->GetOwner())
 				{
+					// Removed as this is server sided
+					/*const ENetRole OwnerRole = OwningActor->GetLocalRole();
+					const bool bIsSimulated = OwnerRole == ROLE_SimulatedProxy;
+					const bool bIsReplicatedAutonomous = OwnerRole == ROLE_AutonomousProxy && PrimComp->bReplicatePhysicsToAutonomousProxy;
+					if (bIsSimulated || bIsReplicatedAutonomous)*/
 
-					if (!OwningActor->GetNetOwningPlayer())
+
+					// Deleted everything here, we will always be the server, I already filtered out clients to default logic
 					{
-						bRemoveItr = true;
-					}
-					else
-					{
-						// Removed as this is server sided
-						/*const ENetRole OwnerRole = OwningActor->GetLocalRole();
-						const bool bIsSimulated = OwnerRole == ROLE_SimulatedProxy;
-						const bool bIsReplicatedAutonomous = OwnerRole == ROLE_AutonomousProxy && PrimComp->bReplicatePhysicsToAutonomousProxy;
-						if (bIsSimulated || bIsReplicatedAutonomous)*/
+						/*const*/ float OwnerPing = 0.0f;// GetOwnerPing(OwningActor, PhysicsTarget);
 
-
-						// Deleted everything here, we will always be the server, I already filtered out clients to default logic
+						/*if (UPlayer* OwningPlayer = OwningActor->GetNetOwningPlayer())
 						{
-							/*const*/ float OwnerPing = 0.0f;// GetOwnerPing(OwningActor, PhysicsTarget);
-
-							/*if (UPlayer* OwningPlayer = OwningActor->GetNetOwningPlayer())
+							if (APlayerController* PlayerController = OwningPlayer->GetPlayerController(nullptr))
 							{
-								if (APlayerController* PlayerController = OwningPlayer->GetPlayerController(nullptr))
+								if (APlayerState* PlayerState = PlayerController->PlayerState)
 								{
-									if (APlayerState* PlayerState = PlayerController->PlayerState)
-									{
-										OwnerPing = PlayerState->ExactPing;
-									}
+									OwnerPing = PlayerState->ExactPing;
 								}
-							}*/
+							}
+						}*/
 
-							// Get the total ping - this approximates the time since the update was
-							// actually generated on the machine that is doing the authoritative sim.
-							// NOTE: We divide by 2 to approximate 1-way ping from 2-way ping.
-							const float PingSecondsOneWay = 0.0f;// (LocalPing + OwnerPing) * 0.5f * 0.001f;
+						// Get the total ping - this approximates the time since the update was
+						// actually generated on the machine that is doing the authoritative sim.
+						// NOTE: We divide by 2 to approximate 1-way ping from 2-way ping.
+						const float PingSecondsOneWay = 0.0f;// (LocalPing + OwnerPing) * 0.5f * 0.001f;
 
 
-							if (UpdatedState.Flags & ERigidBodyFlags::NeedsUpdate)
+						if (UpdatedState.Flags & ERigidBodyFlags::NeedsUpdate)
+						{
+							const bool bRestoredState = ApplyRigidBodyState(DeltaSeconds, BI, PhysicsTarget, PhysicErrorCorrection, PingSecondsOneWay);
+
+							// Need to update the component to match new position.
+							static const auto CVarSkipSkeletalRepOptimization = IConsoleManager::Get().FindConsoleVariable(TEXT("p.SkipSkeletalRepOptimization"));
+							if (/*PhysicsReplicationCVars::SkipSkeletalRepOptimization*/CVarSkipSkeletalRepOptimization->GetInt() == 0 || Cast<USkeletalMeshComponent>(PrimComp) == nullptr)	//simulated skeletal mesh does its own polling of physics results so we don't need to call this as it'll happen at the end of the physics sim
 							{
-								const bool bRestoredState = ApplyRigidBodyState(DeltaSeconds, BI, PhysicsTarget, PhysicErrorCorrection, PingSecondsOneWay);
+								PrimComp->SyncComponentToRBPhysics();
+							}
 
-								// Need to update the component to match new position.
-								static const auto CVarSkipSkeletalRepOptimization = IConsoleManager::Get().FindConsoleVariable(TEXT("p.SkipSkeletalRepOptimization"));
-								if (/*PhysicsReplicationCVars::SkipSkeletalRepOptimization*/CVarSkipSkeletalRepOptimization->GetInt() == 0 || Cast<USkeletalMeshComponent>(PrimComp) == nullptr)	//simulated skeletal mesh does its own polling of physics results so we don't need to call this as it'll happen at the end of the physics sim
-								{
-									PrimComp->SyncComponentToRBPhysics();
-								}
-
-								// Added a sleeping check from the input state as well, we always want to cease activity on sleep
-								if (bRestoredState || ((UpdatedState.Flags & ERigidBodyFlags::Sleeping) != 0))
-								{
-									bRemoveItr = true;
-								}
+							// Added a sleeping check from the input state as well, we always want to cease activity on sleep
+							if (bRestoredState || ((UpdatedState.Flags & ERigidBodyFlags::Sleeping) != 0))
+							{
+								bRemoveItr = true;
 							}
 						}
 					}

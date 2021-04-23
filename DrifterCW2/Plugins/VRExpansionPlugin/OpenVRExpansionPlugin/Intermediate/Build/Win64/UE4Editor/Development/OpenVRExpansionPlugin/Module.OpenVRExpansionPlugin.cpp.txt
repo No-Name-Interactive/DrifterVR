@@ -1,0 +1,45 @@
+D:\GitHub Projects\VRExpPluginExample-4.25-Locked\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Intermediate\Build\Win64\UE4Editor\Development\OpenVRExpansionPlugin\Definitions.OpenVRExpansionPlugin.h
+D:/GitHub Projects/VRExpPluginExample-4.25-Locked/Plugins/VRExpansionPlugin/OpenVRExpansionPlugin/Source/OpenVRExpansionPlugin/Private/OpenVRExpansionFunctionLibrary.cpp
+D:\GitHub Projects\VRExpPluginExample-4.25-Locked\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Public\OpenVRExpansionFunctionLibrary.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Runtime\HeadMountedDisplay\Public\IMotionController.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\ThirdParty\OpenVR\OpenVRv1_5_17\headers\openvr.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\INCLUDE\string
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\INCLUDE\cctype
+D:\Unreal Engine 4\UE_4.25\Engine\Plugins\Runtime\ProceduralMeshComponent\Source\ProceduralMeshComponent\Public\ProceduralMeshComponent.h
+D:\Unreal Engine 4\UE_4.25\Engine\Plugins\Runtime\ProceduralMeshComponent\Intermediate\Build\Win64\UE4Editor\Inc\ProceduralMeshComponent\ProceduralMeshComponent.generated.h
+D:\Unreal Engine 4\UE_4.25\Engine\Plugins\Runtime\ProceduralMeshComponent\Source\ProceduralMeshComponent\Public\KismetProceduralMeshLibrary.h
+D:\Unreal Engine 4\UE_4.25\Engine\Plugins\Runtime\ProceduralMeshComponent\Intermediate\Build\Win64\UE4Editor\Inc\ProceduralMeshComponent\KismetProceduralMeshLibrary.generated.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayFunctionLibrary.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayTypes.h
+D:\Unreal Engine 4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayTypes.generated.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Runtime\HeadMountedDisplay\Public\IIdentifiableXRDevice.h
+D:\Unreal Engine 4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\IIdentifiableXRDevice.generated.h
+D:\Unreal Engine 4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayFunctionLibrary.generated.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Runtime\HeadMountedDisplay\Public\IHeadMountedDisplay.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Runtime\HeadMountedDisplay\Public\LateUpdateManager.h
+D:\GitHub Projects\VRExpPluginExample-4.25-Locked\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Intermediate\Build\Win64\UE4Editor\Inc\OpenVRExpansionPlugin\OpenVRExpansionFunctionLibrary.generated.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Runtime\HeadMountedDisplay\Public\IXRTrackingSystem.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Runtime\HeadMountedDisplay\Public\IXRInput.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Editor/UnrealEd/Classes/Editor/EditorEngine.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Editor\UnrealEd\Classes\Editor/Transactor.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/ArchiveSerializedPropertyChain.h
+D:\Unreal Engine 4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\Transactor.generated.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Editor\UnrealEd\Classes\Settings/LevelEditorViewportSettings.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Editor\UnrealEd\Public\Viewports.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Editor\UnrealEd\Classes\Editor/UnrealEdTypes.h
+D:\Unreal Engine 4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\UnrealEdTypes.generated.h
+D:\Unreal Engine 4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\LevelEditorViewportSettings.generated.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Developer\TargetPlatform\Public\Interfaces/ITargetPlatform.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Developer\TargetPlatform\Public\Interfaces/ITargetDevice.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Developer\TargetPlatform\Public\Interfaces/TargetDeviceId.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Developer\TargetPlatform\Public\Interfaces/ITargetPlatformManagerModule.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Editor\UnrealEd\Public\PlayInEditorDataTypes.h
+D:\Unreal Engine 4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\PlayInEditorDataTypes.generated.h
+D:\Unreal Engine 4\UE_4.25\Engine\Source\Editor\EditorSubsystem\Public\EditorSubsystem.h
+D:\Unreal Engine 4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem\EditorSubsystem.generated.h
+D:\Unreal Engine 4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\EditorEngine.generated.h
+D:/GitHub Projects/VRExpPluginExample-4.25-Locked/Plugins/VRExpansionPlugin/OpenVRExpansionPlugin/Source/OpenVRExpansionPlugin/Private/OpenVRExpansionPlugin.cpp
+D:\GitHub Projects\VRExpPluginExample-4.25-Locked\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Public\OpenVRExpansionPlugin.h
+D:/GitHub Projects/VRExpPluginExample-4.25-Locked/Plugins/VRExpansionPlugin/OpenVRExpansionPlugin/Source/OpenVRExpansionPlugin/Private/SteamVRKeyboardComponent.cpp
+D:\GitHub Projects\VRExpPluginExample-4.25-Locked\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Public\SteamVRKeyboardComponent.h
+D:\GitHub Projects\VRExpPluginExample-4.25-Locked\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Intermediate\Build\Win64\UE4Editor\Inc\OpenVRExpansionPlugin\SteamVRKeyboardComponent.generated.h
