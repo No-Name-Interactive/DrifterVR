@@ -6,9 +6,9 @@
 /NAME:"UE4Editor-VRExpPluginExample.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\VRExpPluginExampleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\VRExpPluginExample\EmptyClassForProject.cpp.obj"
-"C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\VRExpPluginExample\VRExpPluginExample.cpp.obj"
-"C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\VRExpPluginExample\Default.rc2.res"
-/OUT:"C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\VRExpPluginExample\UE4Editor-VRExpPluginExample.lib"
+"C:\Users\Justas\source\repos\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\VRExpPluginExampleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Justas\source\repos\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\VRExpPluginExample\EmptyClassForProject.cpp.obj"
+"C:\Users\Justas\source\repos\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\VRExpPluginExample\VRExpPluginExample.cpp.obj"
+"C:\Users\Justas\source\repos\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\VRExpPluginExample\Default.rc2.res"
+/OUT:"C:\Users\Justas\source\repos\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\VRExpPluginExample\UE4Editor-VRExpPluginExample.lib"
 /INCLUDE:IMPLEMENT_MODULE_VRExpPluginExample
