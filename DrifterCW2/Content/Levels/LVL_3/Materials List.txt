@@ -4,3 +4,6 @@ https://quixel.com/megascans/home?category=displacement&assetId=sdbpbbda Concret
 https://quixel.com/megascans/home?category=displacement&assetId=sctpcjgp Concrete Bricks 
 https://quixel.com/megascans/home?category=displacement&assetId=scfpcbtp Tiles
 https://quixel.com/megascans/purchased?assetId=vdekebbc Scratches
+https://quixel.com/megascans/purchased?assetId=umridamn Wallpaper
+https://quixel.com/megascans/purchased?assetId=ugclegrn Fabric Wallpaper
+https://quixel.com/megascans/purchased?assetId=tifleisfw Wood
