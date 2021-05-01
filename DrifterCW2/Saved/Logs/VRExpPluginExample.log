@@ -2162,3 +2162,698 @@ Box Brush45
 [2021.05.01-18.38.29:880][152]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Lvl_3_Created_By_Sam' took 0.011
 [2021.05.01-18.48.30:430][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
 [2021.05.01-18.48.30:431][943]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Lvl_3_Created_By_Sam' took 0.010
+[2021.05.01-18.52.05:337][926]MapCheck: New page: Map Check
+[2021.05.01-18.52.05:347][926]Cmd: MAP REBUILD ALLVISIBLE
+[2021.05.01-18.52.05:351][926]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.05.01-18.52.05:657][926]LogWorld: UWorld::CleanupWorld for Lvl_3_Created_By_Sam, bSessionEnded=true, bCleanupResources=false
+[2021.05.01-18.52.05:774][926]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.05.01-18.52.05:774][926]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.05.01-18.52.05:774][926]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.05.01-18.52.05:790][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.05.01-18.52.05:799][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.05:802][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.05:803][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.05:805][926]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 6
+[2021.05.01-18.52.05:805][926]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 5
+[2021.05.01-18.52.05:805][926]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 4
+[2021.05.01-18.52.05:805][926]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 3
+[2021.05.01-18.52.05:805][926]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 2
+[2021.05.01-18.52.05:805][926]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 1
+[2021.05.01-18.52.05:805][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2021.05.01-18.52.05:831][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.05:832][926]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 50
+[2021.05.01-18.52.05:832][926]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 49
+[2021.05.01-18.52.05:832][926]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 48
+[2021.05.01-18.52.05:832][926]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 47
+[2021.05.01-18.52.05:832][926]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 46
+[2021.05.01-18.52.05:832][926]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 45
+[2021.05.01-18.52.05:832][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.05:833][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.05:834][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.05:835][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.05:836][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.05:838][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.05:838][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.05:840][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.05:841][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.05:842][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.05:844][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.05:845][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.05:846][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.05:847][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 74
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 73
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 72
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 71
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 70
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 69
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 68
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 67
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 66
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 65
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 64
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 63
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 62
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 61
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 60
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 59
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 58
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 57
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 56
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 55
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 54
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 53
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 52
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 51
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 50
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 49
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 48
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 47
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 46
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 45
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 44
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 43
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 42
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 41
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 40
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 39
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 38
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 37
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 36
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 35
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 34
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 33
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 32
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 31
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 30
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 29
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 28
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 27
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 26
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 25
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 24
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 23
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 22
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 21
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 20
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 19
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 18
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 17
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 16
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 15
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 14
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 13
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 12
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 11
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 10
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 9
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 7
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 6
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 5
+[2021.05.01-18.52.08:073][926]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 4
+[2021.05.01-18.52.08:074][926]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 3
+[2021.05.01-18.52.08:074][926]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 2
+[2021.05.01-18.52.08:074][926]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2021.05.01-18.52.08:074][926]TextureStreamingBuild: Display: Compiling optional shaders took 2.277 seconds.
+[2021.05.01-18.52.08:086][926]LogLevel: Display: Export Material TexCoord Scales took 0.012 seconds.
+[2021.05.01-18.52.08:087][926]TextureStreamingBuild: Display: Build Texture Streaming took 0.002 seconds.
+[2021.05.01-18.52.08:096][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.05.01-18.52.08:098][926]LightingResults: New page: Lighting Build - 1 May 2021, 20:52:08
+[2021.05.01-18.52.08:126][926]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.05.01-18.52.08:159][926]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.05.01-18.52.08:166][926]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.05.01-18.52.08:687][926]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.05.01-18.52.08:687][926]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18056
+[2021.05.01-18.52.15:000][926]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.05.01-18.52.15:002][926]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.05.01-18.52.15:002][926]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.05.01-18.52.15:002][926]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.05.01-18.52.15:002][926]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.05.01-18.52.15:002][926]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.05.01-18.52.15:157][926]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.05.01-18.52.15:157][926]MapCheck: New page: Lvl_3_Created_By_Sam - 1 May 2021, 20:52:15
+[2021.05.01-18.52.15:158][926]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2021.05.01-18.52.15:158][926]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 0.876ms to complete.
+[2021.05.01-18.52.15:160][926]LogEditorBuildUtils: Build time 0:09
+[2021.05.01-18.52.15:190][926]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BathroomWallTiles_Temp1_2, compiling. 
+[2021.05.01-18.52.15:194][926]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BathroomWallTiles_Temp1_2, compiling. 
+[2021.05.01-18.52.15:196][926]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer OfficeCeilingTemp, compiling. 
+[2021.05.01-18.52.15:199][926]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 6
+[2021.05.01-18.52.15:199][926]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 5
+[2021.05.01-18.52.15:199][926]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 4
+[2021.05.01-18.52.15:199][926]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 3
+[2021.05.01-18.52.15:199][926]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 2
+[2021.05.01-18.52.15:199][926]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 1
+[2021.05.01-18.52.15:199][926]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer OfficeCeilingTemp, compiling. 
+[2021.05.01-18.52.15:239][926]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2021.05.01-18.52.15:239][926]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2021.05.01-18.52.15:239][926]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.05.01-18.52.15:251][927]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BathroomWallTiles_Temp1, compiling. 
+[2021.05.01-18.52.15:254][927]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
+[2021.05.01-18.52.15:254][927]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2021.05.01-18.52.15:254][927]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BathroomWallTiles_Temp1, compiling. 
+[2021.05.01-18.52.15:256][927]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BathroomTiles_Temp, compiling. 
+[2021.05.01-18.52.15:259][927]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 2
+[2021.05.01-18.52.15:259][927]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 1
+[2021.05.01-18.52.15:259][927]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BathroomTiles_Temp, compiling. 
+[2021.05.01-18.52.15:317][928]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Plastic, compiling. 
+[2021.05.01-18.52.15:320][928]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Plastic, compiling. 
+[2021.05.01-18.52.16:316][928]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.05.01-18.52.16:316][928]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 7
+[2021.05.01-18.52.16:316][928]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.05.01-18.52.16:316][928]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 5
+[2021.05.01-18.52.16:316][928]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2021.05.01-18.52.16:316][928]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 3
+[2021.05.01-18.52.16:316][928]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2021.05.01-18.52.16:316][928]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2021.05.01-18.52.16:404][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.05.01-18.52.18:639][ 59]LightingResults: Warning: GlowStick_StaticMesh Object has wrapping UVs.
+[2021.05.01-18.52.19:445][113]Job is a success!
+[2021.05.01-18.52.19:566][114]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.040s
+[2021.05.01-18.52.19:566][114]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.05.01-18.52.19:566][114]LogVolumetricLightmapImport:      BrickData (all levels) 2.3Mb (trimmed 1.1Mb due to 0.010000 MinBrickError)
+[2021.05.01-18.52.19:566][114]LogVolumetricLightmapImport:      Bricks at depth
+[2021.05.01-18.52.19:566][114]LogVolumetricLightmapImport:          0: 0.4% covering 100.0% of volume
+[2021.05.01-18.52.19:566][114]LogVolumetricLightmapImport:          1: 9.5% covering 40.6% of volume
+[2021.05.01-18.52.19:566][114]LogVolumetricLightmapImport:          2: 90.1% covering 6.0% of volume
+[2021.05.01-18.52.19:566][114]LogVolumetricLightmapImport:      Bricks in each level
+[2021.05.01-18.52.19:566][114]LogVolumetricLightmapImport:          Lvl_3_Created_By_Sam 			 274 bricks 	 100.0% (Persistent Level)
+[2021.05.01-18.52.19:859][114]LightingResults: Warning: LM_Point_Light6 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:859][114]LightingResults: Warning: LM_Point_Light13 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:859][114]LightingResults: Warning: LM_Point_Light15 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:859][114]LightingResults: Warning: LM_Point_Light25 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:859][114]LightingResults: Warning: LM_Point_Light26 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:859][114]LightingResults: Warning: LM_Point_Light12 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:859][114]LightingResults: Warning: LM_Point_Light32 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:859][114]LightingResults: Warning: LM_Point_Light29 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:859][114]LightingResults: Warning: LM_Ceiling_Point_Light_Child2 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:859][114]LightingResults: Warning: LM_Point_Light62 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:859][114]LightingResults: Warning: LM_Point_Light41 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:859][114]LightingResults: Warning: LM_Point_Light63 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:859][114]LightingResults: Warning: LM_Point_Light42 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:859][114]LightingResults: Warning: LM_Ceiling_Point_Light_Child12 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:859][114]LightingResults: Warning: LM_Ceiling_Point_Light_Child11 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:859][114]LightingResults: Warning: LM_Point_Light46 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light37_62 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Ceiling_Point_Light_Child1_2 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Ceiling_Point_Light_Child10 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Ceiling_Point_Light_Child5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light10 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light47 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light35 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light45 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light7 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Ceiling_Point_Light_Child7 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light64 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light19 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light38_64 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light61 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light56 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light58 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light9 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light54_66 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Ceiling_Point_Light_Child8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light40_21 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Ceiling_Point_Light_Child9 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light57 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light49 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light60 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light39 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light20 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.19:860][114]LightingResults: Warning: LM_Point_Light51 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.05.01-18.52.20:053][114]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2021.05.01-18.52.20:053][114]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2021.05.01-18.52.20:053][114]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2021.05.01-18.52.20:053][114]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2021.05.01-18.52.20:053][114]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2021.05.01-18.52.20:053][114]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2021.05.01-18.52.20:237][114]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 1024X256)
+[2021.05.01-18.52.20:237][114]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X1024)
+[2021.05.01-18.52.20:240][114]LogStaticLightingSystem: Lvl_3_Created_By_Sam_BuiltData storing lightmap data for 128 meshes in 4 LightmapResourceClusters (32.0 Meshes per cluster).
+[2021.05.01-18.52.20:259][114]Lightmass on DESKTOP-6CQN1R3: 3.48 sec total, 175 ms importing, 25 ms setup, 623 ms photons, 2.61 sec processing, 0 ms extra exporting [606/606 mappings]. Threads: 39.1 sec total, 13.9 sec processing.
+[2021.05.01-18.52.20:261][114]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.05.01-18.52.20:305][114]LogStaticLightingSystem: Illumination: 12.1 sec (209 ms encoding lightmaps, 151 ms encoding shadowmaps)
+[2021.05.01-18.52.20:305][114]LogStaticLightingSystem: Lightmap texture memory:  6.0 MB (2.0 MB streaming, 4.0 MB non-streaming), 6 textures
+[2021.05.01-18.52.20:305][114]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (1.3 MB streaming, 5.3 MB non-streaming), 2 textures
+[2021.05.01-18.52.21:015][114]DumpUnbuiltLightIteractions
+[2021.05.01-18.52.21:015][114]Lights with unbuilt interactions: 0
+[2021.05.01-18.52.21:015][114]
+[2021.05.01-18.52.21:015][114]Primitives with unbuilt interactions: 0
+[2021.05.01-18.52.21:072][115]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.05.01-18.52.21:072][115]MapCheck: New page: Lvl_3_Created_By_Sam - 1 May 2021, 20:52:21
+[2021.05.01-18.52.21:073][115]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.833ms to complete.
+[2021.05.01-18.52.45:567][ 12]Cmd: DELETE
+[2021.05.01-18.52.45:567][ 12]Cmd: ACTOR DELETE
+[2021.05.01-18.52.45:576][ 12]LogEditorActor: Deleted Actor: SpotLight
+[2021.05.01-18.52.45:586][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.05.01-18.52.45:590][ 12]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2021.05.01-18.53.08:940][811]LogSlate: Window 'Message Log' being destroyed
+[2021.05.01-18.53.08:944][811]LogSlate: Window 'Message Log' being destroyed
+[2021.05.01-18.54.33:264][903]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StairCase_Ramped_Seamless_StaticMesh6)
+[2021.05.01-18.54.36:879][312]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StairCase_Ramped_Seamless_StaticMesh5)
+[2021.05.01-18.55.20:398][497]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2021.05.01-18.55.21:483][497]LogSlate: Window 'Save Content' being destroyed
+[2021.05.01-18.55.21:514][497]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.05.01-18.55.21:636][497]LogSavePackage: Moving '../../../../../../Users/Vari/Desktop/Work/GitHub Temp/NNI-Project-2/DrifterCW2/Saved/Lvl_3_Created_By_SamD15D2E3F49BE5B9AEE000A99D0C9C32F.tmp' to '../../../../../../Users/Vari/Desktop/Work/GitHub Temp/NNI-Project-2/DrifterCW2/Content/Levels/Lvl_3_Created_By_Sam.umap'
+[2021.05.01-18.55.21:657][497]LogFileHelpers: Saving map 'Lvl_3_Created_By_Sam' took 0.154
+[2021.05.01-18.55.21:736][497]LogSavePackage: Moving '../../../../../../Users/Vari/Desktop/Work/GitHub Temp/NNI-Project-2/DrifterCW2/Saved/Lvl_3_Created_By_Sam_BuiltData248BC4F245F4DDB1517A7797433DCD9A.tmp' to '../../../../../../Users/Vari/Desktop/Work/GitHub Temp/NNI-Project-2/DrifterCW2/Content/Levels/Lvl_3_Created_By_Sam_BuiltData.uasset'
+[2021.05.01-18.55.21:796][497]LogSlate: Window 'VRExpPluginExample - Unreal Editor' being destroyed
+[2021.05.01-18.55.21:796][497]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.05.01-18.55.21:908][497]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.01-18.55.21:908][497]LogContentValidation: Display: Validating World /Game/Levels/Lvl_3_Created_By_Sam.Lvl_3_Created_By_Sam
+[2021.05.01-18.55.21:908][497]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Lvl_3_Created_By_Sam_BuiltData.Lvl_3_Created_By_Sam_BuiltData
+[2021.05.01-18.55.21:913][498]Cmd: QUIT_EDITOR
+[2021.05.01-18.55.21:913][498]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.05.01-18.55.21:929][498]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.05.01-18.55.21:942][498]LogHMD: SteamVR Shutting down.
+[2021.05.01-18.55.21:954][498]LogExit: Preparing to exit.
+[2021.05.01-18.55.22:825][498]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-18.55.22:826][498]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-18.55.22:826][498]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-18.55.22:826][498]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-18.55.22:826][498]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-18.55.22:826][498]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-18.55.22:826][498]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-18.55.22:826][498]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-18.55.22:826][498]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-18.55.22:826][498]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-18.55.22:848][498]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.05.01-18.55.22:852][498]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-18.55.22:852][498]LogExit: Editor shut down
+[2021.05.01-18.55.22:852][498]LogExit: Transaction tracking system shut down
+[2021.05.01-18.55.23:100][498]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001F06398C340), frame # 355498
+[2021.05.01-18.55.23:100][498]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F0638E11C0), frame # 355498
+[2021.05.01-18.55.23:100][498]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F06391DA00), frame # 355498
+[2021.05.01-18.55.23:110][498]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F07BDC6FC0), frame # 355498
+[2021.05.01-18.55.23:110][498]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F086BBEA00), frame # 355498
+[2021.05.01-18.55.23:145][498]LogExit: Object subsystem successfully closed.
+[2021.05.01-18.55.23:166][498]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (804)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (802)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module SceneOutliner (800)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module AddContentDialog (798)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module WidgetCarousel (797)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module EditorWidgets (794)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module CollectionManager (792)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module StatsViewer (790)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (788)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module FoliageEdit (786)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module LandscapeEditor (784)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module MeshPaintMode (782)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (780)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module ActorPickerMode (778)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (776)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (774)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module AutomationWorker (772)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module SteamVREditor (770)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module OculusMR (768)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module GooglePADEditor (766)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (764)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (762)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (760)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (758)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (756)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (754)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (752)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (750)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (748)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module WebMMedia (746)
+[2021.05.01-18.55.23:185][498]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (744)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (742)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module SequenceRecorder (741)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (738)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (736)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (734)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (732)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (730)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (728)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (726)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (724)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (722)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (720)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module PlanarCut (718)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module CharacterAI (716)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module TextureAlignMode (714)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module BspMode (712)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module PlacementMode (711)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module GeometryMode (708)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (706)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module SmartSnapping (704)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module SessionServices (702)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module MeshPaint (700)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module ViewportSnapping (698)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module ViewportInteraction (696)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module ClothPainter (694)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (693)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module LogVisualizer (690)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module IntroTutorials (688)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (687)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (684)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (682)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (680)
+[2021.05.01-18.55.23:186][498]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (679)
+[2021.05.01-18.55.24:588][498]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (676)
+[2021.05.01-18.55.24:588][498]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (674)
+[2021.05.01-18.55.24:588][498]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (672)
+[2021.05.01-18.55.24:588][498]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (670)
+[2021.05.01-18.55.24:588][498]LogModuleManager: Shutting down and abandoning module TraceInsights (668)
+[2021.05.01-18.55.24:588][498]LogModuleManager: Shutting down and abandoning module TraceServices (667)
+[2021.05.01-18.55.24:588][498]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (664)
+[2021.05.01-18.55.24:588][498]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (662)
+[2021.05.01-18.55.24:588][498]LogModuleManager: Shutting down and abandoning module InputBindingEditor (660)
+[2021.05.01-18.55.24:588][498]LogModuleManager: Shutting down and abandoning module MergeActors (658)
+[2021.05.01-18.55.24:588][498]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (656)
+[2021.05.01-18.55.24:589][498]LogModuleManager: Shutting down and abandoning module LocalizationService (655)
+[2021.05.01-18.55.24:589][498]LogModuleManager: Shutting down and abandoning module HardwareTargeting (652)
+[2021.05.01-18.55.24:589][498]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (650)
+[2021.05.01-18.55.24:589][498]LogModuleManager: Shutting down and abandoning module UndoHistory (648)
+[2021.05.01-18.55.24:589][498]LogModuleManager: Shutting down and abandoning module XmlParser (646)
+[2021.05.01-18.55.24:589][498]LogModuleManager: Shutting down and abandoning module Blutility (644)
+[2021.05.01-18.55.24:589][498]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (642)
+[2021.05.01-18.55.24:589][498]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (641)
+[2021.05.01-18.55.24:589][498]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (638)
+[2021.05.01-18.55.24:589][498]LogModuleManager: Shutting down and abandoning module SettingsEditor (636)
+[2021.05.01-18.55.24:589][498]LogModuleManager: Shutting down and abandoning module ProjectLauncher (634)
+[2021.05.01-18.55.24:589][498]LogModuleManager: Shutting down and abandoning module SessionFrontend (632)
+[2021.05.01-18.55.24:589][498]LogModuleManager: Shutting down and abandoning module ProfilerClient (630)
+[2021.05.01-18.55.24:589][498]LogModuleManager: Shutting down and abandoning module DeviceManager (628)
+[2021.05.01-18.55.24:589][498]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (627)
+[2021.05.01-18.55.24:622][498]LogModuleManager: Shutting down and abandoning module AutomationController (624)
+[2021.05.01-18.55.24:622][498]LogModuleManager: Shutting down and abandoning module AutomationWindow (622)
+[2021.05.01-18.55.24:622][498]LogModuleManager: Shutting down and abandoning module Layers (620)
+[2021.05.01-18.55.24:622][498]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (618)
+[2021.05.01-18.55.24:622][498]LogModuleManager: Shutting down and abandoning module DetailCustomizations (616)
+[2021.05.01-18.55.24:622][498]LogModuleManager: Shutting down and abandoning module PackagesDialog (614)
+[2021.05.01-18.55.24:622][498]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (612)
+[2021.05.01-18.55.24:622][498]LogModuleManager: Shutting down and abandoning module Persona (610)
+[2021.05.01-18.55.24:622][498]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (609)
+[2021.05.01-18.55.24:622][498]LogModuleManager: Shutting down and abandoning module AnimGraph (607)
+[2021.05.01-18.55.24:622][498]LogModuleManager: Shutting down and abandoning module Kismet (604)
+[2021.05.01-18.55.24:625][498]LogModuleManager: Shutting down and abandoning module KismetWidgets (603)
+[2021.05.01-18.55.24:625][498]LogModuleManager: Shutting down and abandoning module GraphEditor (600)
+[2021.05.01-18.55.24:625][498]LogModuleManager: Shutting down and abandoning module StructViewer (598)
+[2021.05.01-18.55.24:625][498]LogModuleManager: Shutting down and abandoning module ClassViewer (596)
+[2021.05.01-18.55.24:625][498]LogModuleManager: Shutting down and abandoning module Toolbox (594)
+[2021.05.01-18.55.24:625][498]LogModuleManager: Shutting down and abandoning module ModuleUI (592)
+[2021.05.01-18.55.24:625][498]LogModuleManager: Shutting down and abandoning module OutputLog (590)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module GammaUI (588)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module Documentation (586)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module LiveCoding (584)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module LevelSequence (582)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (580)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module MovieScene (578)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (576)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module LauncherPlatform (574)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module AnalyticsET (572)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module PortalServices (570)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module PortalRpc (568)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module MessagingRpc (566)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (564)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module AudioMixerCore (563)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module AIModule (560)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module GameplayDebugger (559)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module AITestSuite (557)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module NavigationSystem (555)
+[2021.05.01-18.55.24:626][498]LogModuleManager: Shutting down and abandoning module ProfilerService (552)
+[2021.05.01-18.55.24:655][498]LogModuleManager: Shutting down and abandoning module TaskGraph (550)
+[2021.05.01-18.55.24:655][498]LogModuleManager: Shutting down and abandoning module VRExpansionPlugin (548)
+[2021.05.01-18.55.24:655][498]LogModuleManager: Shutting down and abandoning module OpenVRExpansionPlugin (546)
+[2021.05.01-18.55.24:655][498]LogModuleManager: Shutting down and abandoning module ScreenshotTools (544)
+[2021.05.01-18.55.24:655][498]LogModuleManager: Shutting down and abandoning module SynthesisEditor (542)
+[2021.05.01-18.55.24:655][498]LogModuleManager: Shutting down and abandoning module Synthesis (540)
+[2021.05.01-18.55.24:655][498]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (538)
+[2021.05.01-18.55.24:655][498]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (536)
+[2021.05.01-18.55.24:655][498]LogModuleManager: Shutting down and abandoning module OculusEditor (534)
+[2021.05.01-18.55.24:655][498]LogModuleManager: Shutting down and abandoning module OculusInput (532)
+[2021.05.01-18.55.24:655][498]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (530)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module GooglePAD (528)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module EditableMesh (526)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (524)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module CableComponent (522)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module AudioCapture (520)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (519)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module AssetTags (516)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (514)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (512)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module AppleImageUtils (510)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module AndroidPermission (508)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (506)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (504)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module TemplateSequence (502)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (500)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (498)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (496)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (494)
+[2021.05.01-18.55.24:656][498]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (493)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (490)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (488)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module MediaCompositing (486)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module ImgMedia (484)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (482)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (480)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (478)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (476)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (474)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (472)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (470)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module MeshConversion (468)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module DynamicMesh (466)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (464)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module GeometricObjects (462)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (460)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (459)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (456)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (454)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (452)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (450)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module ChaosNiagara (448)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module FractureEditor (446)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (444)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module ChaosCloth (442)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module BackChannel (440)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (438)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module AutomationUtils (436)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module AlembicImporter (434)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module AlembicLibrary (433)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module GeometryCache (432)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (431)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (426)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (424)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (422)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module PluginBrowser (420)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (418)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (416)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (414)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module CurveEditorTools (412)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (410)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module CryptoKeys (408)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (406)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (404)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module UObjectPlugin (402)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (400)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (398)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (396)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (394)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module GitSourceControl (392)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module SourceControl (391)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (388)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (386)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (384)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (382)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (380)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (378)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (376)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module Paper2DEditor (374)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module VRExpPluginExample (372)
+[2021.05.01-18.55.24:659][498]LogModuleManager: Shutting down and abandoning module AdvancedSessions (370)
+[2021.05.01-18.55.24:660][498]LogModuleManager: Shutting down and abandoning module SoundFields (368)
+[2021.05.01-18.55.24:660][498]LogModuleManager: Shutting down and abandoning module SignificanceManager (366)
+[2021.05.01-18.55.24:660][498]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (364)
+[2021.05.01-18.55.24:660][498]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (362)
+[2021.05.01-18.55.24:660][498]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (358)
+[2021.05.01-18.55.24:660][498]LogModuleManager: Shutting down and abandoning module ActorSequence (356)
+[2021.05.01-18.55.24:660][498]LogModuleManager: Shutting down and abandoning module UdpMessaging (354)
+[2021.05.01-18.55.24:762][498]LogModuleManager: Shutting down and abandoning module TcpMessaging (352)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (350)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (348)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (346)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (344)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (342)
+[2021.05.01-18.55.24:863][498]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (340)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (338)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (336)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (334)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module MagicLeapController (332)
+[2021.05.01-18.55.24:863][498]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (330)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module MagicLeapAR (328)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module AugmentedReality (327)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (324)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module SignalProcessing (321)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module NiagaraEditor (319)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module NiagaraCore (316)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (314)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (312)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module FacialAnimation (310)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module DataValidation (308)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (306)
+[2021.05.01-18.55.24:863][498]LogModuleManager: Shutting down and abandoning module LevelEditor (305)
+[2021.05.01-18.55.24:864][498]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (304)
+[2021.05.01-18.55.24:864][498]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (302)
+[2021.05.01-18.55.24:864][498]LogModuleManager: Shutting down and abandoning module MainFrame (300)
+[2021.05.01-18.55.24:864][498]LogModuleManager: Shutting down and abandoning module HotReload (299)
+[2021.05.01-18.55.24:864][498]LogModuleManager: Shutting down and abandoning module ToolMenus (295)
+[2021.05.01-18.55.24:864][498]LogModuleManager: Shutting down and abandoning module TreeMap (293)
+[2021.05.01-18.55.24:864][498]LogModuleManager: Shutting down and abandoning module AnimationSharing (290)
+[2021.05.01-18.55.24:864][498]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (288)
+[2021.05.01-18.55.24:864][498]LogModuleManager: Shutting down and abandoning module Paper2D (286)
+[2021.05.01-18.55.24:864][498]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (284)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (282)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (280)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module PacketHandler (278)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (276)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (274)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module MediaAssets (272)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module Overlay (270)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module OverlayEditor (269)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module VREditor (266)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module StringTableEditor (264)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (262)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (260)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module FunctionalTesting (258)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (256)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module UMG (254)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module UMGEditor (253)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module MessageLog (251)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module MaterialEditor (249)
+[2021.05.01-18.55.24:865][498]LogModuleManager: Shutting down and abandoning module ContentBrowser (248)
+[2021.05.01-18.55.24:866][498]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (247)
+[2021.05.01-18.55.24:866][498]LogModuleManager: Shutting down and abandoning module SlateReflector (240)
+[2021.05.01-18.55.24:866][498]LogModuleManager: Shutting down and abandoning module Slate (238)
+[2021.05.01-18.55.24:866][498]LogModuleManager: Shutting down and abandoning module SlateCore (236)
+[2021.05.01-18.55.24:866][498]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (234)
+[2021.05.01-18.55.24:866][498]LogModuleManager: Shutting down and abandoning module UnrealEd (232)
+[2021.05.01-18.55.24:866][498]LogModuleManager: Shutting down and abandoning module MRMesh (230)
+[2021.05.01-18.55.24:866][498]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (228)
+[2021.05.01-18.55.24:866][498]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (226)
+[2021.05.01-18.55.24:866][498]LogModuleManager: Shutting down and abandoning module XAudio2 (224)
+[2021.05.01-18.55.24:866][498]LogModuleManager: Shutting down and abandoning module Networking (222)
+[2021.05.01-18.55.24:866][498]LogModuleManager: Shutting down and abandoning module Core (220)
+[2021.05.01-18.55.24:866][498]LogModuleManager: Shutting down and abandoning module MovieSceneTools (218)
+[2021.05.01-18.55.24:866][498]LogModuleManager: Shutting down and abandoning module CurveEditor (217)
+[2021.05.01-18.55.24:866][498]LogModuleManager: Shutting down and abandoning module Sequencer (215)
+[2021.05.01-18.55.24:866][498]LogModuleManager: Shutting down and abandoning module EditorStyle (214)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module KismetCompiler (210)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module MeshBuilder (208)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module MeshUtilities (206)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (205)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (204)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (203)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (201)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (199)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (197)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module MaterialBaking (193)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (188)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module DerivedDataCache (186)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module XGEController (184)
+[2021.05.01-18.55.24:867][498]LogXGEController: Cleaning working directory: C:/Users/Vari/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module TargetPlatform (182)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (181)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (179)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (177)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (175)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (173)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (171)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (169)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (167)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (165)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (163)
+[2021.05.01-18.55.24:867][498]LogModuleManager: Shutting down and abandoning module ImageWrapper (162)
+[2021.05.01-18.55.24:868][498]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (159)
+[2021.05.01-18.55.24:868][498]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (157)
+[2021.05.01-18.55.24:868][498]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (155)
+[2021.05.01-18.55.24:868][498]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (153)
+[2021.05.01-18.55.24:868][498]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (151)
+[2021.05.01-18.55.24:868][498]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (149)
+[2021.05.01-18.55.24:868][498]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (147)
+[2021.05.01-18.55.24:868][498]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (145)
+[2021.05.01-18.55.24:868][498]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (143)
+[2021.05.01-18.55.24:868][498]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (141)
+[2021.05.01-18.55.24:869][498]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (139)
+[2021.05.01-18.55.24:869][498]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (137)
+[2021.05.01-18.55.24:869][498]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (135)
+[2021.05.01-18.55.24:869][498]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (133)
+[2021.05.01-18.55.24:869][498]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (131)
+[2021.05.01-18.55.24:869][498]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (129)
+[2021.05.01-18.55.24:869][498]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2021.05.01-18.55.24:869][498]LogModuleManager: Shutting down and abandoning module Messaging (125)
+[2021.05.01-18.55.24:869][498]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (123)
+[2021.05.01-18.55.24:869][498]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (121)
+[2021.05.01-18.55.24:871][498]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (119)
+[2021.05.01-18.55.24:871][498]LogModuleManager: Shutting down and abandoning module InputCore (116)
+[2021.05.01-18.55.24:871][498]LogModuleManager: Shutting down and abandoning module Settings (114)
+[2021.05.01-18.55.24:871][498]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (112)
+[2021.05.01-18.55.24:872][498]LogModuleManager: Shutting down and abandoning module PhysXCooking (110)
+[2021.05.01-18.55.24:872][498]LogModuleManager: Shutting down and abandoning module ChaosSolvers (108)
+[2021.05.01-18.55.24:872][498]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (107)
+[2021.05.01-18.55.24:872][498]LogModuleManager: Shutting down and abandoning module Chaos (104)
+[2021.05.01-18.55.24:872][498]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (102)
+[2021.05.01-18.55.24:872][498]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (101)
+[2021.05.01-18.55.24:872][498]LogModuleManager: Shutting down and abandoning module AVEncoder (100)
+[2021.05.01-18.55.24:872][498]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (96)
+[2021.05.01-18.55.24:872][498]LogModuleManager: Shutting down and abandoning module SteamVRInput (94)
+[2021.05.01-18.55.24:872][498]LogModuleManager: Shutting down and abandoning module SteamVR (92)
+[2021.05.01-18.55.24:872][498]LogHMD: Freeing OpenVRDLLHandle.
+[2021.05.01-18.55.24:872][498]LogModuleManager: Shutting down and abandoning module OculusHMD (90)
+[2021.05.01-18.55.24:872][498]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (88)
+[2021.05.01-18.55.24:872][498]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (86)
+[2021.05.01-18.55.24:872][498]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (84)
+[2021.05.01-18.55.24:872][498]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (80)
+[2021.05.01-18.55.24:873][498]LogModuleManager: Shutting down and abandoning module SteamShared (74)
+[2021.05.01-18.55.24:873][498]LogSteamShared: Freeing the Steam Loaded Modules...
+[2021.05.01-18.55.24:873][498]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2021.05.01-18.55.24:873][498]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2021.05.01-18.55.24:908][498]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2021.05.01-18.55.24:909][498]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.05.01-18.55.24:909][498]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBF686A22-4FD5-B0C8-B819-AFBC5C8719E6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=1d81fc54411fcc4f7823c189514f9dd3%7C86e86f8e0b2c43dfa796373799698b3c%7C3e336b87-6dcb-4ca8-8f9c-3aea72035dbd&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2021.05.01-18.55.24:920][498]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2021.05.01-18.55.24:921][498]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2021.05.01-18.55.24:922][498]LogModuleManager: Shutting down and abandoning module Media (61)
+[2021.05.01-18.55.24:923][498]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2021.05.01-18.55.24:923][498]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2021.05.01-18.55.24:923][498]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2021.05.01-18.55.24:923][498]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2021.05.01-18.55.24:923][498]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2021.05.01-18.55.24:923][498]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2021.05.01-18.55.24:923][498]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2021.05.01-18.55.24:923][498]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2021.05.01-18.55.24:923][498]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2021.05.01-18.55.24:923][498]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.05.01-18.55.24:923][498]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.05.01-18.55.24:923][498]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.05.01-18.55.24:923][498]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.05.01-18.55.24:923][498]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.05.01-18.55.24:923][498]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.05.01-18.55.24:923][498]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.05.01-18.55.24:923][498]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.05.01-18.55.24:924][498]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.05.01-18.55.24:924][498]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.05.01-18.55.24:924][498]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.05.01-18.55.24:924][498]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.05.01-18.55.24:924][498]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.05.01-18.55.24:924][498]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.05.01-18.55.24:924][498]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.05.01-18.55.24:924][498]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.05.01-18.55.24:924][498]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.05.01-18.55.24:924][498]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.05.01-18.55.24:924][498]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.05.01-18.55.24:924][498]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.05.01-18.55.24:924][498]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.05.01-18.55.24:925][498]LogD3D11RHI: Shutdown
+[2021.05.01-18.55.24:925][498]LogD3D11RHI: CleanupD3DDevice
+[2021.05.01-18.55.24:940][498]LogExit: Exiting.
+[2021.05.01-18.55.24:945][498]Log file closed, 05/01/21 19:55:24
