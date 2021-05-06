@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-DrifterVR.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\DrifterVREditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterVR\DrifterVR.cpp.obj"
+"C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterVR\EmptyClassForProject.cpp.obj"
+"C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterVR\Default.rc2.res"
+/OUT:"C:\Users\Vari\Desktop\Work\GitHub Temp\NNI-Project-2\DrifterCW2\Intermediate\Build\Win64\UE4Editor\Development\DrifterVR\UE4Editor-DrifterVR.lib"
+/INCLUDE:IMPLEMENT_MODULE_DrifterVR

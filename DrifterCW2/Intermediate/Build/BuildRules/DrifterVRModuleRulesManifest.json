@@ -1,0 +1,12 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Vari\\Desktop\\Work\\GitHub Temp\\NNI-Project-2\\DrifterCW2\\Source\\DrifterVR\\DrifterVR.Build.cs",
+		"C:\\Users\\Vari\\Desktop\\Work\\GitHub Temp\\NNI-Project-2\\DrifterCW2\\Plugins\\AdvancedSessions\\AdvancedSessions\\Source\\AdvancedSessions\\AdvancedSessions.Build.cs",
+		"C:\\Users\\Vari\\Desktop\\Work\\GitHub Temp\\NNI-Project-2\\DrifterCW2\\Plugins\\AdvancedSessions\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\AdvancedSteamSessions.Build.cs",
+		"C:\\Users\\Vari\\Desktop\\Work\\GitHub Temp\\NNI-Project-2\\DrifterCW2\\Plugins\\VRExpansionPlugin\\OpenVRExpansionPlugin\\Source\\OpenVRExpansionPlugin\\OpenVRExpansionPlugin.Build.cs",
+		"C:\\Users\\Vari\\Desktop\\Work\\GitHub Temp\\NNI-Project-2\\DrifterCW2\\Plugins\\VRExpansionPlugin\\VRExpansionPlugin\\Source\\VRExpansionPlugin\\VRExpansionPlugin.Build.cs",
+		"C:\\Users\\Vari\\Desktop\\Work\\GitHub Temp\\NNI-Project-2\\DrifterCW2\\Source\\DrifterVR.Target.cs",
+		"C:\\Users\\Vari\\Desktop\\Work\\GitHub Temp\\NNI-Project-2\\DrifterCW2\\Source\\DrifterVREditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}
