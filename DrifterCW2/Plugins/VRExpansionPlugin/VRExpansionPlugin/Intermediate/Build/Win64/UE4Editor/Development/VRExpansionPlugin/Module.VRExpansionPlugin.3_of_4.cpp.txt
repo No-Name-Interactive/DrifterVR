@@ -549,5 +549,3 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\NavigationSystem\Public\NavLinkCustomInterface.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavLinkCustomInterface.generated.h
 C:/Users/Vari/Desktop/Work/GitHub Temp/NNI-Project-2/DrifterCW2/Plugins/VRExpansionPlugin/VRExpansionPlugin/Source/VRExpansionPlugin/Private/VRPlayerController.cpp
-C:/Users/Vari/Desktop/Work/GitHub Temp/NNI-Project-2/DrifterCW2/Plugins/VRExpansionPlugin/VRExpansionPlugin/Source/VRExpansionPlugin/Private/VRRootComponent.cpp
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Algo/Copy.h

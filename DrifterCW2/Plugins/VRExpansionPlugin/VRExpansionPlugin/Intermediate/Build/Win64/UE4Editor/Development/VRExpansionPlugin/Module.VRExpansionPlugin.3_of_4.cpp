@@ -12,4 +12,3 @@
 #include "C:/Users/Vari/Desktop/Work/GitHub Temp/NNI-Project-2/DrifterCW2/Plugins/VRExpansionPlugin/VRExpansionPlugin/Source/VRExpansionPlugin/Private/VRGripInterface.cpp"
 #include "C:/Users/Vari/Desktop/Work/GitHub Temp/NNI-Project-2/DrifterCW2/Plugins/VRExpansionPlugin/VRExpansionPlugin/Source/VRExpansionPlugin/Private/VRPathFollowingComponent.cpp"
 #include "C:/Users/Vari/Desktop/Work/GitHub Temp/NNI-Project-2/DrifterCW2/Plugins/VRExpansionPlugin/VRExpansionPlugin/Source/VRExpansionPlugin/Private/VRPlayerController.cpp"
-#include "C:/Users/Vari/Desktop/Work/GitHub Temp/NNI-Project-2/DrifterCW2/Plugins/VRExpansionPlugin/VRExpansionPlugin/Source/VRExpansionPlugin/Private/VRRootComponent.cpp"

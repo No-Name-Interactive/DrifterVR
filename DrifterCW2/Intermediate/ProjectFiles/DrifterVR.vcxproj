@@ -287,7 +287,6 @@
     <None Include="..\..\Source\DrifterVR.Target.cs"/>
     <None Include="..\..\Source\DrifterVREditor.Target.cs"/>
     <None Include="..\..\README.md"/>
-    <None Include="..\..\UE4ProjectRenamer.exe"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
