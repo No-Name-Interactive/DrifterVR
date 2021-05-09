@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\DrifterVR.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{17AE7045-11A2-43DA-A04E-3414B1B870C0}</UniqueIdentifier>
+      <UniqueIdentifier>{57BF19E6-4D43-46FD-82F6-1CB7BED0D422}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DrifterVR.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{9A18A6A6-1816-44DF-A915-21D9EC2E9BBA}</UniqueIdentifier>
+      <UniqueIdentifier>{056F0D57-1B9F-4D7D-BEE0-FB472BB4F6BF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -37,7 +37,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Config\SteamVRBindings">
-      <UniqueIdentifier>{A29F2219-FB87-44DF-8715-87BB5680EE24}</UniqueIdentifier>
+      <UniqueIdentifier>{0A1DD13F-77C7-4BF0-A195-C2A88E0960BB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\SteamVRBindings\gamepad.json">
       <Filter>Config\SteamVRBindings</Filter>
@@ -79,25 +79,25 @@
       <Filter>Config\SteamVRBindings</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{F5887496-E649-4791-930A-6CD923A4824B}</UniqueIdentifier>
+      <UniqueIdentifier>{51C31673-BBB3-416D-84C2-93139C221DDF}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\AdvancedSessions">
-      <UniqueIdentifier>{2E39C439-B07D-4017-9750-6B552D462DCD}</UniqueIdentifier>
+      <UniqueIdentifier>{AAB45F43-61B0-40D4-9DD7-22FFE9B96BD8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSessions">
-      <UniqueIdentifier>{67CED28C-F958-478D-B913-41BB2224976E}</UniqueIdentifier>
+      <UniqueIdentifier>{38B3945B-FE6F-4742-986D-00944FFC0856}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source">
-      <UniqueIdentifier>{72C5BF14-C816-4A65-914D-75109007E211}</UniqueIdentifier>
+      <UniqueIdentifier>{F841A96C-638D-471D-9BE9-9F455EC51CD3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions">
-      <UniqueIdentifier>{27D7ABFB-D72D-44BF-97D3-F403C962D0A6}</UniqueIdentifier>
+      <UniqueIdentifier>{4732E07F-DB2E-4498-9560-58FE79788381}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\AdvancedSessions.Build.cs">
       <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes">
-      <UniqueIdentifier>{1B528539-0750-4B7F-813B-D78A10F59249}</UniqueIdentifier>
+      <UniqueIdentifier>{9D33017E-6872-4509-9C55-4AF74136C51C}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedExternalUILibrary.h">
       <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
@@ -169,7 +169,7 @@
       <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
     </ClInclude>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private">
-      <UniqueIdentifier>{0E2737D9-D0E3-41AE-B848-2C25658BADD8}</UniqueIdentifier>
+      <UniqueIdentifier>{D0D7B026-F883-48E7-A695-D5C30C45C7FC}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedExternalUILibrary.cpp">
       <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
@@ -235,61 +235,61 @@
       <Filter>Plugins\AdvancedSessions\AdvancedSessions</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Resources">
-      <UniqueIdentifier>{65207514-8EF3-460D-A4E7-76142C21E451}</UniqueIdentifier>
+      <UniqueIdentifier>{04CB17B5-10F6-414A-8A57-8C047C47B5DF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Resources\Icon128.png">
       <Filter>Plugins\AdvancedSessions\AdvancedSessions\Resources</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions">
-      <UniqueIdentifier>{7C82F59F-7C2D-4B99-AD03-326468283269}</UniqueIdentifier>
+      <UniqueIdentifier>{657EC188-EABA-45A4-9BA7-B44C7C70F59D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\AdvancedSteamSessions.uplugin">
       <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Resources">
-      <UniqueIdentifier>{A09122A9-0DFD-4CA4-B7F4-7337A3922F30}</UniqueIdentifier>
+      <UniqueIdentifier>{F421CB21-CA76-4A57-B28C-93E845BD0679}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Resources\Icon128.png">
       <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Resources</Filter>
     </None>
     <Filter Include="Plugins\VRExpansionPlugin">
-      <UniqueIdentifier>{9A3ABDEB-7CFB-49F1-86C4-020A6E1E37E8}</UniqueIdentifier>
+      <UniqueIdentifier>{164A505B-48FF-4ED3-BC8E-AC8E44207F19}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\VRExpansionPlugin\OpenVRExpansionPlugin">
-      <UniqueIdentifier>{AEF8166D-C8DF-4E88-A8A7-0C06886A2904}</UniqueIdentifier>
+      <UniqueIdentifier>{968925A7-DCE6-47DC-8E1E-D111C6FAEAA7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\OpenVRExpansionPlugin.uplugin">
       <Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin</Filter>
     </None>
     <Filter Include="Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Resources">
-      <UniqueIdentifier>{5FEA1023-C35C-45F5-A77D-B2EA96F548FF}</UniqueIdentifier>
+      <UniqueIdentifier>{E3838DC7-0396-4F78-ACF3-9A1F6F315AEB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Resources\Icon128.png">
       <Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Resources</Filter>
     </None>
     <Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin">
-      <UniqueIdentifier>{D855A29D-9114-4B20-A194-59365F23FADD}</UniqueIdentifier>
+      <UniqueIdentifier>{B5F29849-8E0D-40C0-BFC0-8095B74A40C8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\VRExpansionPlugin.uplugin">
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin</Filter>
     </None>
     <Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Resources">
-      <UniqueIdentifier>{5833C77A-75DB-4934-B2C3-DB2CDA987F0E}</UniqueIdentifier>
+      <UniqueIdentifier>{852027F1-8D87-4157-956E-C14BFF9C5DBC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Resources\Icon128.png">
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Resources</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source">
-      <UniqueIdentifier>{66B56A2E-734C-47B0-9983-1AE6D92E6FF2}</UniqueIdentifier>
+      <UniqueIdentifier>{18C1F5A2-589B-49C6-88DD-C8C0B925C5F4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions">
-      <UniqueIdentifier>{8E4211C0-F59D-473C-8C7A-93A7F0E8D181}</UniqueIdentifier>
+      <UniqueIdentifier>{D3DBA3C6-41A1-4E5C-8EF4-966367CE5DC9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\AdvancedSteamSessions.Build.cs">
       <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes">
-      <UniqueIdentifier>{0B1386A4-C763-4C1A-91A2-F8CF95DA2826}</UniqueIdentifier>
+      <UniqueIdentifier>{5D1F0F71-84C8-4477-B890-CD8B5FFE6EBA}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\AdvancedSteamFriendsLibrary.h">
       <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
@@ -307,7 +307,7 @@
       <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
     </ClInclude>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private">
-      <UniqueIdentifier>{061AA39B-58C8-4E7B-B292-626F5C3015BB}</UniqueIdentifier>
+      <UniqueIdentifier>{DFCBC245-B23B-47C4-BF07-14BBA19AD1DB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\AdvancedSteamFriendsLibrary.cpp">
       <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
@@ -325,16 +325,16 @@
       <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source">
-      <UniqueIdentifier>{A7B1F40C-9A6E-4FD3-B9AA-692137710586}</UniqueIdentifier>
+      <UniqueIdentifier>{67927810-DB85-464D-9D66-B62505008F83}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin">
-      <UniqueIdentifier>{052E9E44-D059-46CC-928E-81B6AEB075AF}</UniqueIdentifier>
+      <UniqueIdentifier>{BE4CD2AE-46B8-4531-8ED3-6DA67F20729D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\OpenVRExpansionPlugin.Build.cs">
       <Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin</Filter>
     </None>
     <Filter Include="Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Private">
-      <UniqueIdentifier>{3652E02F-2BB3-4066-8DB4-85F9299219E2}</UniqueIdentifier>
+      <UniqueIdentifier>{FF99E957-A170-464A-A287-D785284A1C50}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Private\OpenVRExpansionFunctionLibrary.cpp">
       <Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Private</Filter>
@@ -349,7 +349,7 @@
       <Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Public">
-      <UniqueIdentifier>{FE3878FC-51AB-44DE-8F97-3A88C4CA894C}</UniqueIdentifier>
+      <UniqueIdentifier>{56EF1579-D2F5-42C6-A615-77864C2D5139}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Public\OpenVRExpansionFunctionLibrary.h">
       <Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Public</Filter>
@@ -361,16 +361,16 @@
       <Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source">
-      <UniqueIdentifier>{7184ECD6-56A9-4980-A5D1-5467F38BACD6}</UniqueIdentifier>
+      <UniqueIdentifier>{53941948-3B6A-4179-8B4C-C786A0886AD6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin">
-      <UniqueIdentifier>{4048B88F-3BA7-48C0-BC79-63968C854B14}</UniqueIdentifier>
+      <UniqueIdentifier>{3A5C1247-BEB9-4801-8825-A4D1C27222F4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\VRExpansionPlugin.Build.cs">
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin</Filter>
     </None>
     <Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private">
-      <UniqueIdentifier>{349D769F-EB47-4EFA-B9C0-2759EBAA5BF4}</UniqueIdentifier>
+      <UniqueIdentifier>{371DF666-F451-4ADA-ADBE-A2D1054B4EDC}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\GripMotionControllerComponent.cpp">
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
@@ -433,7 +433,7 @@
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables">
-      <UniqueIdentifier>{1E00439F-CC95-434A-9E2A-91FB499D259C}</UniqueIdentifier>
+      <UniqueIdentifier>{BE5863C9-2597-459F-B363-6C6C8050778C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables\GrippableActor.cpp">
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables</Filter>
@@ -466,7 +466,7 @@
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Grippables</Filter>
     </ClCompile>
     <Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\GripScripts">
-      <UniqueIdentifier>{95181172-5ECF-4F91-86B7-F6DE84771376}</UniqueIdentifier>
+      <UniqueIdentifier>{C040080D-3D6A-457F-B443-6E13F97D4B61}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\GripScripts\GS_Default.cpp">
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\GripScripts</Filter>
@@ -490,7 +490,7 @@
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\GripScripts</Filter>
     </ClCompile>
     <Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Interactibles">
-      <UniqueIdentifier>{F2499A80-1AE1-4F97-9763-AD56BE95CC08}</UniqueIdentifier>
+      <UniqueIdentifier>{7DF75DF6-038B-4311-8859-C82510F4D6F3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Interactibles\VRButtonComponent.cpp">
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Interactibles</Filter>
@@ -511,7 +511,7 @@
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Interactibles</Filter>
     </ClCompile>
     <Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc">
-      <UniqueIdentifier>{1BBF66FC-0096-43B4-9678-4628E88F4392}</UniqueIdentifier>
+      <UniqueIdentifier>{A9A91351-31B3-4CE8-86CF-75DDC108E0D2}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\BucketUpdateSubsystem.cpp">
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc</Filter>
@@ -532,7 +532,7 @@
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc</Filter>
     </ClCompile>
     <Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\SimpleChar">
-      <UniqueIdentifier>{B50F335D-D101-4232-993D-158DDAD6C695}</UniqueIdentifier>
+      <UniqueIdentifier>{5189B994-1BA0-4B2B-B7FE-6EFAA3DBA2C9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\SimpleChar\VRSimpleCharacter.cpp">
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\SimpleChar</Filter>
@@ -541,7 +541,7 @@
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\SimpleChar</Filter>
     </ClCompile>
     <Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public">
-      <UniqueIdentifier>{762459EE-BD80-4B03-AC28-C706222281DE}</UniqueIdentifier>
+      <UniqueIdentifier>{19643A9B-1801-4DC2-B6FB-D1A573B2F47E}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\GripMotionControllerComponent.h">
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
@@ -601,7 +601,7 @@
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables">
-      <UniqueIdentifier>{A8949D0E-B1B8-4A8F-A097-D8E3D8175BE1}</UniqueIdentifier>
+      <UniqueIdentifier>{EA1755C6-B42F-4E9F-8D40-B0B7B3E49027}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables\GrippableActor.h">
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables</Filter>
@@ -637,7 +637,7 @@
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Grippables</Filter>
     </ClInclude>
     <Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\GripScripts">
-      <UniqueIdentifier>{19BAE63A-FA30-4359-8E58-2A568D08C431}</UniqueIdentifier>
+      <UniqueIdentifier>{5C9128D8-A08B-46A5-B77E-D1A69B71B605}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\GripScripts\GS_Default.h">
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\GripScripts</Filter>
@@ -661,7 +661,7 @@
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\GripScripts</Filter>
     </ClInclude>
     <Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Interactibles">
-      <UniqueIdentifier>{36A899DA-95DC-44A8-AF9E-86E97D9CA6EB}</UniqueIdentifier>
+      <UniqueIdentifier>{9B1CCA2D-1113-40A9-AE19-0B6E9D59C084}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Interactibles\VRButtonComponent.h">
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Interactibles</Filter>
@@ -682,7 +682,7 @@
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Interactibles</Filter>
     </ClInclude>
     <Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc">
-      <UniqueIdentifier>{40A5DF4D-BDA2-4CD7-B1D3-2118E4D8F7F0}</UniqueIdentifier>
+      <UniqueIdentifier>{AC4A7CE9-C688-42B0-9B5D-A7C78811ECC4}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc\BucketUpdateSubsystem.h">
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc</Filter>
@@ -715,7 +715,7 @@
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc</Filter>
     </ClInclude>
     <Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\SimpleChar">
-      <UniqueIdentifier>{3AE78A00-8A82-4E72-B5FC-682E522CA53B}</UniqueIdentifier>
+      <UniqueIdentifier>{E7DE0C12-E415-4D2D-8DC4-D74FCA9814DD}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\SimpleChar\VRSimpleCharacter.h">
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\SimpleChar</Filter>
@@ -724,7 +724,7 @@
       <Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\SimpleChar</Filter>
     </ClInclude>
     <Filter Include="Source\DrifterVR">
-      <UniqueIdentifier>{564B4B71-FB92-451C-ACB5-570CA6A41AFB}</UniqueIdentifier>
+      <UniqueIdentifier>{B5445BC1-48BF-408B-9C46-FC8EA1CAEEDD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DrifterVR\DrifterVR.Build.cs">
       <Filter>Source\DrifterVR</Filter>
