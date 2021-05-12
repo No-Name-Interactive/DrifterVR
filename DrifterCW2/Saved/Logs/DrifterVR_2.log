@@ -1,10 +1,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 05/12/21 04:47:49
 LogInit: Display: Running engine for game: DrifterVR
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.146384
+=======
+﻿Log file open, 05/11/21 17:24:31
+LogInit: Display: Running engine for game: DrifterVR
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.146404
+>>>>>>> parent of 48d33db (Temp)
 =======
 ﻿Log file open, 05/11/21 17:24:31
 LogInit: Display: Running engine for game: DrifterVR
@@ -220,6 +228,7 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 [2021.05.12-03.47.49:825][  0]LogConfig: Setting CVar [[r.VSync:0]]
@@ -27642,6 +27651,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 =======
 =======
 >>>>>>> parent of 48d33db (Temp)
+=======
+>>>>>>> parent of 48d33db (Temp)
 [2021.05.11-16.24.31:926][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2021.05.11-16.24.31:926][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2021.05.11-16.24.31:926][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Vari/Desktop/Work/GitHub Temp/NNI-Project-2/DrifterCW2/Saved/Config/Windows/Engine.ini]
@@ -29241,6 +29252,9 @@ Continue: Skip saving this asset only.
 [2021.05.11-16.31.24:216][ 74]LogExit: Exiting.
 [2021.05.11-16.31.24:224][ 74]Log file closed, 05/11/21 17:31:24
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 48d33db (Temp)
+=======
 >>>>>>> parent of 48d33db (Temp)
 =======
 >>>>>>> parent of 48d33db (Temp)
