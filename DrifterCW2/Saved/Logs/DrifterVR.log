@@ -1,9 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 05/12/21 04:47:07
 LogInit: Display: Running engine for game: DrifterVR
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.144721
+=======
+﻿Log file open, 05/11/21 21:50:47
+LogInit: Display: Running engine for game: DrifterVR
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.896362
+>>>>>>> parent of 48d33db (Temp)
 =======
 ﻿Log file open, 05/11/21 21:50:47
 LogInit: Display: Running engine for game: DrifterVR
@@ -217,6 +225,7 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 <<<<<<< HEAD
 [2021.05.12-03.47.07:702][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2021.05.12-03.47.07:702][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
@@ -4213,6 +4222,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.12-03.47.49:570][191]LogExit: Exiting.
 [2021.05.12-03.47.49:573][191]Log file closed, 05/12/21 04:47:49
 =======
+=======
+>>>>>>> parent of 48d33db (Temp)
 [2021.05.11-20.50.48:847][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2021.05.11-20.50.48:847][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2021.05.11-20.50.48:847][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GitHub Projects/NNI-Project-2/DrifterCW2/Saved/Config/Windows/Engine.ini]
@@ -23949,4 +23960,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.11-21.03.49:658][225]LogD3D11RHI: CleanupD3DDevice
 [2021.05.11-21.03.49:677][225]LogExit: Exiting.
 [2021.05.11-21.03.49:707][225]Log file closed, 05/11/21 22:03:49
+<<<<<<< HEAD
+>>>>>>> parent of 48d33db (Temp)
+=======
 >>>>>>> parent of 48d33db (Temp)
